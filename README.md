@@ -86,9 +86,12 @@ switch would have been visible.
 `results/PHercParis4_intercolumnar_same_windings_2.4um.json` merges every
 segment in voxels of the 2.4 µm volume. `results/..._9.6um.json` is the same
 file in the 4× downsampled frame that the published `spiral-input` dataset is
-fitted in (its `spiral-scroll.json` gives `voxel_size_um` 9.6, and its default
-fit range of z 4,000 to 17,000 matches our points, which span 3,554 to 17,727
-in that frame). `add_to_dataset.py` appends the collections to a dataset's
+fitted in: level 2 of the volume (9.6 µm, the `voxel_size_um` of the
+tutorial's `spiral-scroll.json`, shape 18,946 × 8,174 × 8,174 as in the
+fitter's own tests). The fitter's default range of z 4,000 to 17,000 matches
+our points, which span 3,554 to 17,727 in that frame. Voxel quantities in the
+metadata (`line_start_xyz`, `radius_vox`) are scaled with the points.
+`add_to_dataset.py` appends the collections to a dataset's
 `same_windings.json` with fresh ids.
 
 ## Checks you can run without ground truth
@@ -127,8 +130,9 @@ with and without the gap lines on the same slice range.
 - Around the windings where one turn equals a whole number of column pitches
   (about 57 and 115 on Paris 4) the gaps cannot reveal a one-turn switch.
 - Not yet run through `fit_spiral.py`; the effect on `total_fg_pixels` is
-  untested. The 9.6 µm frame of the spiral dataset is inferred from the
-  tutorial, not checked against the dataset files.
+  untested. The spiral dataset's frame is level 2 (9.6 µm) of the 2.4 µm
+  volume, as the fitter's own tests and the volume's shape show; the dataset
+  files themselves could not be checked from where this was written.
 
 ## License
 
