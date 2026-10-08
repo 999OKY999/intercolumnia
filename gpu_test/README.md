@@ -81,7 +81,9 @@ What it does:
    `$WORK/ab_results.tgz`, also when something fails.
 
 Settings: `WORK`, `Z_BEGIN`/`Z_END` (dataset frame, both or neither),
-`STEPS`, `SEEDS` (default `"1 2 3"`), `MAX_HOURS` (default 24), `SCORE` (0 to
+`STEPS`, `SEEDS` (default `"1 2 3"`), `MAX_HOURS` (default 24; `MAX_HOURS=0`
+stops after the pilot with only the time projection, and a later run with a
+higher limit resumes from there), `SCORE` (0 to
 skip the ink metric), `INK_GROUP` (ink zarr level for the render, default 3).
 
 ## Reading the result
