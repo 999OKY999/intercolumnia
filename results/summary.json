@@ -1,0 +1,2558 @@
+[
+ {
+  "segment": "20230702185753",
+  "render": "PHercParis4/segments/20230702185753/ink-detection/downsampled/PHercParis4-20230702185753-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20230702185753-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20230929220926",
+  "render": "PHercParis4/segments/20230929220926/ink-detection/downsampled/PHercParis4-20230929220926-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20230929220926-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 1,
+  "points": 11,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 1604,
+    "halfwidth": 472,
+    "windows_ok": 15,
+    "steps": 7,
+    "wrap_len_px": 3193.7499524094173,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20231005123336",
+  "render": "PHercParis4/segments/20231005123336/ink-detection/downsampled/PHercParis4-20231005123336-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231005123336-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 3,
+  "points": 66,
+  "pitch_px": 4095.0,
+  "per_gap": [
+   {
+    "x0": 1418,
+    "halfwidth": 458,
+    "windows_ok": 23,
+    "steps": 0,
+    "wrap_len_px": 2964.9999558180575,
+    "switch_offset_px": -1130.0000441819427,
+    "checkable": true
+   },
+   {
+    "x0": 5953,
+    "halfwidth": 412,
+    "windows_ok": 25,
+    "steps": 0,
+    "wrap_len_px": 2889.9999569356446,
+    "switch_offset_px": -1205.0000430643554,
+    "checkable": true
+   },
+   {
+    "x0": 9699,
+    "halfwidth": 464,
+    "windows_ok": 22,
+    "steps": 0,
+    "wrap_len_px": 2811.249958109111,
+    "switch_offset_px": -1283.7500418908887,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20231007101619",
+  "render": "PHercParis4/segments/20231007101619/ink-detection/downsampled/PHercParis4-20231007101619-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231007101619-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 2,
+  "points": 82,
+  "pitch_px": 4346.0,
+  "per_gap": [
+   {
+    "x0": 295,
+    "halfwidth": 144,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 4593,
+    "halfwidth": 416,
+    "windows_ok": 41,
+    "steps": 0,
+    "wrap_len_px": 2667.499960251153,
+    "switch_offset_px": -1678.500039748847,
+    "checkable": true
+   },
+   {
+    "x0": 8580,
+    "halfwidth": 415,
+    "windows_ok": 41,
+    "steps": 0,
+    "wrap_len_px": 2549.9999620020394,
+    "switch_offset_px": -1796.0000379979604,
+    "checkable": true
+   },
+   {
+    "x0": 12611,
+    "halfwidth": 361,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20231012184424",
+  "render": "PHercParis4/segments/20231012184424/ink-detection/downsampled/PHercParis4-20231012184424-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231012184424-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 3,
+  "points": 72,
+  "pitch_px": 4088.0,
+  "per_gap": [
+   {
+    "x0": 1496,
+    "halfwidth": 454,
+    "windows_ok": 31,
+    "steps": 0,
+    "wrap_len_px": 2272.4999661371116,
+    "switch_offset_px": -1815.5000338628877,
+    "checkable": true
+   },
+   {
+    "x0": 5577,
+    "halfwidth": 443,
+    "windows_ok": 41,
+    "steps": 0,
+    "wrap_len_px": 2176.2499675713484,
+    "switch_offset_px": -1911.7500324286518,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20231016151002",
+  "render": "PHercParis4/segments/20231016151002/ink-detection/downsampled/PHercParis4-20231016151002-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231016151002-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 1,
+  "points": 15,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 1852,
+    "halfwidth": 427,
+    "windows_ok": 15,
+    "steps": 0,
+    "wrap_len_px": 1254.999981299043,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20231022170901",
+  "render": "PHercParis4/segments/20231022170901/ink-detection/downsampled/PHercParis4-20231022170901-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231022170901-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 3,
+  "points": 39,
+  "pitch_px": 4091.0,
+  "per_gap": [
+   {
+    "x0": 2204,
+    "halfwidth": 438,
+    "windows_ok": 13,
+    "steps": 0,
+    "wrap_len_px": 2004.9999701231723,
+    "switch_offset_px": 2004.9999701231723,
+    "checkable": true
+   },
+   {
+    "x0": 5900,
+    "halfwidth": 448,
+    "windows_ok": 13,
+    "steps": 0,
+    "wrap_len_px": 1863.7499722279613,
+    "switch_offset_px": 1863.7499722279615,
+    "checkable": true
+   },
+   {
+    "x0": 10511,
+    "halfwidth": 459,
+    "windows_ok": 13,
+    "steps": 0,
+    "wrap_len_px": 1712.499974481762,
+    "switch_offset_px": 1712.4999744817621,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20231031143852",
+  "render": "PHercParis4/segments/20231031143852/ink-detection/downsampled/PHercParis4-20231031143852-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231031143852-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 1,
+  "points": 13,
+  "pitch_px": 4226.0,
+  "per_gap": [
+   {
+    "x0": 377,
+    "halfwidth": 340,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 4197,
+    "halfwidth": 452,
+    "windows_ok": 13,
+    "steps": 0,
+    "wrap_len_px": 1569.9999766051774,
+    "switch_offset_px": 1569.9999766051774,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20231106155351",
+  "render": "PHercParis4/segments/20231106155351/ink-detection/downsampled/PHercParis4-20231106155351-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231106155351-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 1,
+  "points": 29,
+  "pitch_px": 4211.0,
+  "per_gap": [
+   {
+    "x0": 1863,
+    "halfwidth": 413,
+    "windows_ok": 29,
+    "steps": 0,
+    "wrap_len_px": 1834.9999726563697,
+    "switch_offset_px": 1834.9999726563694,
+    "checkable": true
+   },
+   {
+    "x0": 5874,
+    "halfwidth": 327,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20231210121321",
+  "render": "PHercParis4/segments/20231210121321/ink-detection/downsampled/PHercParis4-20231210121321-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231210121321-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 491,
+    "halfwidth": 352,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20231221180251",
+  "render": "PHercParis4/segments/20231221180251/ink-detection/downsampled/PHercParis4-20231221180251-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20231221180251-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": 4399.0,
+  "per_gap": [
+   {
+    "x0": 805,
+    "halfwidth": 400,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 4609,
+    "halfwidth": 354,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260602204401-5753_-7",
+  "render": "PHercParis4/segments/20260602204401-5753_-7/ink-detection/downsampled/PHercParis4-20260602204401-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260602204401-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260602225659-5753_0",
+  "render": "PHercParis4/segments/20260602225659-5753_0/ink-detection/downsampled/PHercParis4-20260602225659-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260602225659-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260602230115-20230702185753_v14",
+  "render": "PHercParis4/segments/20260602230115-20230702185753_v14/ink-detection/downsampled/PHercParis4-20260602230115-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260602230115-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603005223-5753_-1",
+  "render": "PHercParis4/segments/20260603005223-5753_-1/ink-detection/downsampled/PHercParis4-20260603005223-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603005223-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603024952-5753_-2",
+  "render": "PHercParis4/segments/20260603024952-5753_-2/ink-detection/downsampled/PHercParis4-20260603024952-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603024952-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603042357-5753_-3",
+  "render": "PHercParis4/segments/20260603042357-5753_-3/ink-detection/downsampled/PHercParis4-20260603042357-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603042357-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603145540-5753_-4",
+  "render": "PHercParis4/segments/20260603145540-5753_-4/ink-detection/downsampled/PHercParis4-20260603145540-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603145540-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603185441-5753_-6",
+  "render": "PHercParis4/segments/20260603185441-5753_-6/ink-detection/downsampled/PHercParis4-20260603185441-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603185441-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603190005-5753_-5",
+  "render": "PHercParis4/segments/20260603190005-5753_-5/ink-detection/downsampled/PHercParis4-20260603190005-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603190005-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603193311-5753_-1_copy",
+  "render": "PHercParis4/segments/20260603193311-5753_-1_copy/ink-detection/downsampled/PHercParis4-20260603193311-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603193311-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260603222816-20231005123336_v2_flatboi",
+  "render": "PHercParis4/segments/20260603222816-20231005123336_v2_flatboi/ink-detection/downsampled/PHercParis4-20260603222816-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260603222816-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260604223808-20231210121321_v8",
+  "render": "PHercParis4/segments/20260604223808-20231210121321_v8/ink-detection/downsampled/PHercParis4-20260604223808-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260604223808-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 1,
+  "points": 6,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 5158,
+    "halfwidth": 169,
+    "windows_ok": 8,
+    "steps": 5,
+    "wrap_len_px": 2263.75,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623141135-w046-052_jordi",
+  "render": "PHercParis4/segments/20260623141135-w046-052_jordi/ink-detection/downsampled/PHercParis4-20260623141135-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623141135-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 6,
+  "points": 79,
+  "pitch_px": 3877.0,
+  "per_gap": [
+   {
+    "x0": 14408,
+    "halfwidth": 339,
+    "windows_ok": 31,
+    "steps": 0,
+    "wrap_len_px": 3344.9999501556167,
+    "switch_offset_px": -532.0000498443829,
+    "checkable": true
+   },
+   {
+    "x0": 18701,
+    "halfwidth": 496,
+    "windows_ok": 31,
+    "steps": 2,
+    "wrap_len_px": 3264.9999513477096,
+    "switch_offset_px": -612.0000486522905,
+    "checkable": true
+   },
+   {
+    "x0": 22441,
+    "halfwidth": 494,
+    "windows_ok": 22,
+    "steps": 0,
+    "wrap_len_px": 3221.2499519996354,
+    "switch_offset_px": -655.7500480003645,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623141649-w053-058_jordi",
+  "render": "PHercParis4/segments/20260623141649-w053-058_jordi/ink-detection/downsampled/PHercParis4-20260623141649-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623141649-on-20260411134726-2.4um.tifxyz",
+  "gaps": 5,
+  "collections": 8,
+  "points": 99,
+  "pitch_px": 4115.0,
+  "per_gap": [
+   {
+    "x0": 717,
+    "halfwidth": 261,
+    "windows_ok": 1,
+    "steps": 0,
+    "wrap_len_px": 3984.9999406188736,
+    "switch_offset_px": -130.00005938112602,
+    "checkable": false
+   },
+   {
+    "x0": 4821,
+    "halfwidth": 501,
+    "windows_ok": 33,
+    "steps": 3,
+    "wrap_len_px": 3966.2499408982703,
+    "switch_offset_px": -148.75005910172985,
+    "checkable": true
+   },
+   {
+    "x0": 8872,
+    "halfwidth": 331,
+    "windows_ok": 29,
+    "steps": 10,
+    "wrap_len_px": 3879.9999421834955,
+    "switch_offset_px": -235.00005781650472,
+    "checkable": true
+   },
+   {
+    "x0": 12784,
+    "halfwidth": 449,
+    "windows_ok": 18,
+    "steps": 16,
+    "wrap_len_px": 3801.249943356962,
+    "switch_offset_px": -313.7500566430381,
+    "checkable": true
+   },
+   {
+    "x0": 17301,
+    "halfwidth": 481,
+    "windows_ok": 32,
+    "steps": 0,
+    "wrap_len_px": 3727.4999444559226,
+    "switch_offset_px": -387.50005554407795,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623141924-w010-027",
+  "render": "PHercParis4/segments/20260623141924-w010-027/ink-detection/downsampled/PHercParis4-20260623141924-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623141924-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 5,
+  "points": 93,
+  "pitch_px": 4450.0,
+  "per_gap": [
+   {
+    "x0": 2682,
+    "halfwidth": 408,
+    "windows_ok": 36,
+    "steps": 0,
+    "wrap_len_px": 1717.499974407256,
+    "switch_offset_px": 1717.499974407256,
+    "checkable": true
+   },
+   {
+    "x0": 6574,
+    "halfwidth": 453,
+    "windows_ok": 39,
+    "steps": 0,
+    "wrap_len_px": 1539.9999770522122,
+    "switch_offset_px": 1539.9999770522122,
+    "checkable": true
+   },
+   {
+    "x0": 11182,
+    "halfwidth": 476,
+    "windows_ok": 19,
+    "steps": 0,
+    "wrap_len_px": 1296.24998068437,
+    "switch_offset_px": 1296.24998068437,
+    "checkable": true
+   },
+   {
+    "x0": 17812,
+    "halfwidth": 233,
+    "windows_ok": 7,
+    "steps": 0,
+    "wrap_len_px": 843.7499874271455,
+    "switch_offset_px": 843.7499874271457,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623142658-w028-037",
+  "render": "PHercParis4/segments/20260623142658-w028-037/ink-detection/downsampled/PHercParis4-20260623142658-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623142658-on-20260411134726-2.4um.tifxyz",
+  "gaps": 5,
+  "collections": 7,
+  "points": 184,
+  "pitch_px": 4084.0,
+  "per_gap": [
+   {
+    "x0": 4373,
+    "halfwidth": 415,
+    "windows_ok": 33,
+    "steps": 0,
+    "wrap_len_px": 2441.2499636225407,
+    "switch_offset_px": -1642.7500363774598,
+    "checkable": true
+   },
+   {
+    "x0": 8500,
+    "halfwidth": 481,
+    "windows_ok": 39,
+    "steps": 0,
+    "wrap_len_px": 2314.9999655038123,
+    "switch_offset_px": -1769.0000344961877,
+    "checkable": true
+   },
+   {
+    "x0": 12573,
+    "halfwidth": 424,
+    "windows_ok": 37,
+    "steps": 0,
+    "wrap_len_px": 2178.7499675340955,
+    "switch_offset_px": -1905.250032465905,
+    "checkable": true
+   },
+   {
+    "x0": 16557,
+    "halfwidth": 439,
+    "windows_ok": 39,
+    "steps": 0,
+    "wrap_len_px": 2024.999969825149,
+    "switch_offset_px": 2024.9999698251493,
+    "checkable": true
+   },
+   {
+    "x0": 20375,
+    "halfwidth": 402,
+    "windows_ok": 38,
+    "steps": 0,
+    "wrap_len_px": 1914.9999714642768,
+    "switch_offset_px": 1914.9999714642765,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623143441-w038-045",
+  "render": "PHercParis4/segments/20260623143441-w038-045/ink-detection/downsampled/PHercParis4-20260623143441-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623143441-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 3,
+  "points": 53,
+  "pitch_px": 3998.0,
+  "per_gap": [
+   {
+    "x0": 6696,
+    "halfwidth": 439,
+    "windows_ok": 34,
+    "steps": 0,
+    "wrap_len_px": 2994.9999553710227,
+    "switch_offset_px": -1003.000044628978,
+    "checkable": true
+   },
+   {
+    "x0": 10770,
+    "halfwidth": 347,
+    "windows_ok": 19,
+    "steps": 0,
+    "wrap_len_px": 2932.4999563023453,
+    "switch_offset_px": -1065.5000436976547,
+    "checkable": true
+   },
+   {
+    "x0": 15041,
+    "halfwidth": 463,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 18922,
+    "halfwidth": 450,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623144224-w046-052",
+  "render": "PHercParis4/segments/20260623144224-w046-052/ink-detection/downsampled/PHercParis4-20260623144224-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623144224-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 6,
+  "points": 95,
+  "pitch_px": 10110.0,
+  "per_gap": [
+   {
+    "x0": 2297,
+    "halfwidth": 508,
+    "windows_ok": 36,
+    "steps": 0,
+    "wrap_len_px": 3563.7499468959877,
+    "switch_offset_px": 3563.749946895988,
+    "checkable": true
+   },
+   {
+    "x0": 14431,
+    "halfwidth": 271,
+    "windows_ok": 32,
+    "steps": 0,
+    "wrap_len_px": 3341.249950211496,
+    "switch_offset_px": 3341.2499502114956,
+    "checkable": true
+   },
+   {
+    "x0": 22396,
+    "halfwidth": 486,
+    "windows_ok": 28,
+    "steps": 0,
+    "wrap_len_px": 3254.999951496721,
+    "switch_offset_px": 3254.9999514967217,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623144957-w053-058",
+  "render": "PHercParis4/segments/20260623144957-w053-058/ink-detection/downsampled/PHercParis4-20260623144957-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623144957-on-20260411134726-2.4um.tifxyz",
+  "gaps": 6,
+  "collections": 9,
+  "points": 122,
+  "pitch_px": 4116.0,
+  "per_gap": [
+   {
+    "x0": 852,
+    "halfwidth": 363,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 4852,
+    "halfwidth": 455,
+    "windows_ok": 13,
+    "steps": 7,
+    "wrap_len_px": 3989.9999405443677,
+    "switch_offset_px": -126.00005945563282,
+    "checkable": true
+   },
+   {
+    "x0": 8764,
+    "halfwidth": 509,
+    "windows_ok": 39,
+    "steps": 0,
+    "wrap_len_px": 3877.4999422207484,
+    "switch_offset_px": -238.50005777925116,
+    "checkable": true
+   },
+   {
+    "x0": 12837,
+    "halfwidth": 352,
+    "windows_ok": 31,
+    "steps": 8,
+    "wrap_len_px": 3783.7499436177322,
+    "switch_offset_px": -332.2500563822677,
+    "checkable": true
+   },
+   {
+    "x0": 16938,
+    "halfwidth": 425,
+    "windows_ok": 21,
+    "steps": 12,
+    "wrap_len_px": 3716.2499446235606,
+    "switch_offset_px": -399.75005537643995,
+    "checkable": true
+   },
+   {
+    "x0": 20997,
+    "halfwidth": 505,
+    "windows_ok": 27,
+    "steps": 11,
+    "wrap_len_px": 3692.499944977463,
+    "switch_offset_px": -423.500055022537,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623145652-w059-063",
+  "render": "PHercParis4/segments/20260623145652-w059-063/ink-detection/downsampled/PHercParis4-20260623145652-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623145652-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 4,
+  "points": 61,
+  "pitch_px": 7961.5,
+  "per_gap": [
+   {
+    "x0": 5817,
+    "halfwidth": 472,
+    "windows_ok": 33,
+    "steps": 0,
+    "wrap_len_px": 4306.2499358318755,
+    "switch_offset_px": -3655.250064168126,
+    "checkable": true
+   },
+   {
+    "x0": 13681,
+    "halfwidth": 509,
+    "windows_ok": 32,
+    "steps": 0,
+    "wrap_len_px": 4124.999938532711,
+    "switch_offset_px": -3836.5000614672904,
+    "checkable": true
+   },
+   {
+    "x0": 21373,
+    "halfwidth": 144,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623150417-w064-068",
+  "render": "PHercParis4/segments/20260623150417-w064-068/ink-detection/downsampled/PHercParis4-20260623150417-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623150417-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 5,
+  "points": 53,
+  "pitch_px": 3467.0,
+  "per_gap": [
+   {
+    "x0": 17773,
+    "halfwidth": 133,
+    "windows_ok": 35,
+    "steps": 0,
+    "wrap_len_px": 4609.999931305648,
+    "switch_offset_px": 1142.9999313056476,
+    "checkable": true
+   },
+   {
+    "x0": 21261,
+    "halfwidth": 258,
+    "windows_ok": 26,
+    "steps": 0,
+    "wrap_len_px": 4589.999931603671,
+    "switch_offset_px": 1122.9999316036706,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623151041-w069-072",
+  "render": "PHercParis4/segments/20260623151041-w069-072/ink-detection/downsampled/PHercParis4-20260623151041-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623151041-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260623151729-w073-076",
+  "render": "PHercParis4/segments/20260623151729-w073-076/ink-detection/downsampled/PHercParis4-20260623151729-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623151729-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260623152443-w077-080",
+  "render": "PHercParis4/segments/20260623152443-w077-080/ink-detection/downsampled/PHercParis4-20260623152443-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623152443-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260623153216-w081-084",
+  "render": "PHercParis4/segments/20260623153216-w081-084/ink-detection/downsampled/PHercParis4-20260623153216-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623153216-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 5321,
+    "halfwidth": 382,
+    "windows_ok": 13,
+    "steps": 21,
+    "wrap_len_px": 6051.249909829349,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623154006-w085-088",
+  "render": "PHercParis4/segments/20260623154006-w085-088/ink-detection/downsampled/PHercParis4-20260623154006-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623154006-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 2,
+  "points": 32,
+  "pitch_px": 22019.0,
+  "per_gap": [
+   {
+    "x0": 214,
+    "halfwidth": 123,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 22204,
+    "halfwidth": 363,
+    "windows_ok": 34,
+    "steps": 0,
+    "wrap_len_px": 6219.999907314779,
+    "switch_offset_px": 6219.999907314779,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623154617-w089-091",
+  "render": "PHercParis4/segments/20260623154617-w089-091/ink-detection/downsampled/PHercParis4-20260623154617-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623154617-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 4,
+  "points": 41,
+  "pitch_px": 6547.5,
+  "per_gap": [
+   {
+    "x0": 6921,
+    "halfwidth": 285,
+    "windows_ok": 31,
+    "steps": 3,
+    "wrap_len_px": 6654.999900832774,
+    "switch_offset_px": 107.49990083277463,
+    "checkable": false
+   },
+   {
+    "x0": 13264,
+    "halfwidth": 262,
+    "windows_ok": 20,
+    "steps": 10,
+    "wrap_len_px": 6618.749901372941,
+    "switch_offset_px": 71.24990137294162,
+    "checkable": false
+   },
+   {
+    "x0": 19944,
+    "halfwidth": 160,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623155240-w092-094",
+  "render": "PHercParis4/segments/20260623155240-w092-094/ink-detection/downsampled/PHercParis4-20260623155240-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623155240-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 3,
+  "points": 36,
+  "pitch_px": 6803.0,
+  "per_gap": [
+   {
+    "x0": 204,
+    "halfwidth": 63,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 7169,
+    "halfwidth": 284,
+    "windows_ok": 30,
+    "steps": 0,
+    "wrap_len_px": 6881.874897452073,
+    "switch_offset_px": 78.87489745207355,
+    "checkable": false
+   },
+   {
+    "x0": 13889,
+    "halfwidth": 302,
+    "windows_ok": 12,
+    "steps": 12,
+    "wrap_len_px": 6863.12489773147,
+    "switch_offset_px": 60.12489773147001,
+    "checkable": false
+   },
+   {
+    "x0": 20739,
+    "halfwidth": 101,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623155914-w095-097",
+  "render": "PHercParis4/segments/20260623155914-w095-097/ink-detection/downsampled/PHercParis4-20260623155914-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623155914-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 1,
+  "points": 8,
+  "pitch_px": 7064.0,
+  "per_gap": [
+   {
+    "x0": 7256,
+    "halfwidth": 250,
+    "windows_ok": 7,
+    "steps": 6,
+    "wrap_len_px": 7069.999894648792,
+    "switch_offset_px": 5.999894648791422,
+    "checkable": false
+   },
+   {
+    "x0": 14186,
+    "halfwidth": 279,
+    "windows_ok": 11,
+    "steps": 10,
+    "wrap_len_px": 7072.499894611539,
+    "switch_offset_px": 8.4998946115387,
+    "checkable": false
+   },
+   {
+    "x0": 21342,
+    "halfwidth": 144,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623160554-w098-100",
+  "render": "PHercParis4/segments/20260623160554-w098-100/ink-detection/downsampled/PHercParis4-20260623160554-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623160554-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 1,
+  "points": 7,
+  "pitch_px": 7334.0,
+  "per_gap": [
+   {
+    "x0": 175,
+    "halfwidth": 205,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 7523,
+    "halfwidth": 478,
+    "windows_ok": 7,
+    "steps": 0,
+    "wrap_len_px": 7334.9998906999845,
+    "switch_offset_px": 0.9998906999837747,
+    "checkable": false
+   },
+   {
+    "x0": 14719,
+    "halfwidth": 419,
+    "windows_ok": 5,
+    "steps": 7,
+    "wrap_len_px": 7313.749891016634,
+    "switch_offset_px": -20.250108983366168,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623161233-w101-103",
+  "render": "PHercParis4/segments/20260623161233-w101-103/ink-detection/downsampled/PHercParis4-20260623161233-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623161233-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 1,
+  "points": 9,
+  "pitch_px": 7133.0,
+  "per_gap": [
+   {
+    "x0": 1394,
+    "halfwidth": 182,
+    "windows_ok": 4,
+    "steps": 0,
+    "wrap_len_px": 7544.999887570741,
+    "switch_offset_px": 411.9998875707413,
+    "checkable": true
+   },
+   {
+    "x0": 8816,
+    "halfwidth": 246,
+    "windows_ok": 9,
+    "steps": 0,
+    "wrap_len_px": 7504.999888166787,
+    "switch_offset_px": 371.99988816678746,
+    "checkable": true
+   },
+   {
+    "x0": 14922,
+    "halfwidth": 370,
+    "windows_ok": 1,
+    "steps": 0,
+    "wrap_len_px": 7467.499888725581,
+    "switch_offset_px": 334.4998887255813,
+    "checkable": false
+   },
+   {
+    "x0": 22221,
+    "halfwidth": 183,
+    "windows_ok": 3,
+    "steps": 0,
+    "wrap_len_px": 7584.999886974694,
+    "switch_offset_px": 451.9998869746935,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623161921-w104-106",
+  "skipped": "no 2.4um render or mesh"
+ },
+ {
+  "segment": "20260623162614-w107-109",
+  "render": "PHercParis4/segments/20260623162614-w107-109/ink-detection/downsampled/PHercParis4-20260623162614-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623162614-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 3,
+  "points": 47,
+  "pitch_px": 3133.0,
+  "per_gap": [
+   {
+    "x0": 5782,
+    "halfwidth": 285,
+    "windows_ok": 25,
+    "steps": 0,
+    "wrap_len_px": 7689.999885410072,
+    "switch_offset_px": 1423.9998854100722,
+    "checkable": true
+   },
+   {
+    "x0": 9206,
+    "halfwidth": 493,
+    "windows_ok": 5,
+    "steps": 0,
+    "wrap_len_px": 7798.749883789571,
+    "switch_offset_px": 1532.7498837895714,
+    "checkable": true
+   },
+   {
+    "x0": 13950,
+    "halfwidth": 248,
+    "windows_ok": 22,
+    "steps": 0,
+    "wrap_len_px": 7683.7498855032045,
+    "switch_offset_px": 1417.7498855032052,
+    "checkable": true
+   },
+   {
+    "x0": 16035,
+    "halfwidth": 446,
+    "windows_ok": 8,
+    "steps": 0,
+    "wrap_len_px": 7779.999884068968,
+    "switch_offset_px": 1513.9998840689675,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623163339-w110-112",
+  "render": "PHercParis4/segments/20260623163339-w110-112/ink-detection/downsampled/PHercParis4-20260623163339-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623163339-on-20260411134726-2.4um.tifxyz",
+  "gaps": 7,
+  "collections": 7,
+  "points": 126,
+  "pitch_px": 3424.0,
+  "per_gap": [
+   {
+    "x0": 1398,
+    "halfwidth": 353,
+    "windows_ok": 9,
+    "steps": 0,
+    "wrap_len_px": 7969.999881237747,
+    "switch_offset_px": 1121.999881237747,
+    "checkable": true
+   },
+   {
+    "x0": 4433,
+    "halfwidth": 551,
+    "windows_ok": 36,
+    "steps": 0,
+    "wrap_len_px": 7869.999882727863,
+    "switch_offset_px": 1021.9998827278628,
+    "checkable": true
+   },
+   {
+    "x0": 9353,
+    "halfwidth": 199,
+    "windows_ok": 9,
+    "steps": 0,
+    "wrap_len_px": 7947.499881573023,
+    "switch_offset_px": 1099.4998815730228,
+    "checkable": true
+   },
+   {
+    "x0": 12400,
+    "halfwidth": 418,
+    "windows_ok": 35,
+    "steps": 0,
+    "wrap_len_px": 7823.124883426355,
+    "switch_offset_px": 975.1248834263547,
+    "checkable": true
+   },
+   {
+    "x0": 15680,
+    "halfwidth": 278,
+    "windows_ok": 8,
+    "steps": 0,
+    "wrap_len_px": 7927.4998818710465,
+    "switch_offset_px": 1079.499881871046,
+    "checkable": true
+   },
+   {
+    "x0": 20813,
+    "halfwidth": 422,
+    "windows_ok": 32,
+    "steps": 0,
+    "wrap_len_px": 7776.249884124847,
+    "switch_offset_px": 928.2498841248467,
+    "checkable": true
+   },
+   {
+    "x0": 23528,
+    "halfwidth": 253,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623164141-w113-115",
+  "render": "PHercParis4/segments/20260623164141-w113-115/ink-detection/downsampled/PHercParis4-20260623164141-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623164141-on-20260411134726-2.4um.tifxyz",
+  "gaps": 7,
+  "collections": 6,
+  "points": 94,
+  "pitch_px": 3743.5,
+  "per_gap": [
+   {
+    "x0": 1479,
+    "halfwidth": 416,
+    "windows_ok": 5,
+    "steps": 2,
+    "wrap_len_px": 8102.499879263343,
+    "switch_offset_px": 615.4998792633431,
+    "checkable": true
+   },
+   {
+    "x0": 4766,
+    "halfwidth": 446,
+    "windows_ok": 36,
+    "steps": 0,
+    "wrap_len_px": 8002.499880753459,
+    "switch_offset_px": 515.4998807534599,
+    "checkable": false
+   },
+   {
+    "x0": 9530,
+    "halfwidth": 181,
+    "windows_ok": 2,
+    "steps": 0,
+    "wrap_len_px": 8093.749879393728,
+    "switch_offset_px": 606.7498793937282,
+    "checkable": false
+   },
+   {
+    "x0": 12672,
+    "halfwidth": 199,
+    "windows_ok": 34,
+    "steps": 0,
+    "wrap_len_px": 7979.374881098049,
+    "switch_offset_px": 492.3748810980494,
+    "checkable": true
+   },
+   {
+    "x0": 16097,
+    "halfwidth": 372,
+    "windows_ok": 5,
+    "steps": 0,
+    "wrap_len_px": 8083.74987954274,
+    "switch_offset_px": 596.7498795427392,
+    "checkable": true
+   },
+   {
+    "x0": 20047,
+    "halfwidth": 460,
+    "windows_ok": 29,
+    "steps": 3,
+    "wrap_len_px": 7929.999881833794,
+    "switch_offset_px": 442.999881833794,
+    "checkable": true
+   },
+   {
+    "x0": 23657,
+    "halfwidth": 393,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623164704-w116-117",
+  "render": "PHercParis4/segments/20260623164704-w116-117/ink-detection/downsampled/PHercParis4-20260623164704-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623164704-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 4,
+  "points": 37,
+  "pitch_px": 5037.0,
+  "per_gap": [
+   {
+    "x0": 1153,
+    "halfwidth": 296,
+    "windows_ok": 9,
+    "steps": 0,
+    "wrap_len_px": 8249.999877065422,
+    "switch_offset_px": -1824.000122934578,
+    "checkable": true
+   },
+   {
+    "x0": 5762,
+    "halfwidth": 499,
+    "windows_ok": 25,
+    "steps": 0,
+    "wrap_len_px": 8096.2498793564755,
+    "switch_offset_px": -1977.7501206435243,
+    "checkable": true
+   },
+   {
+    "x0": 9375,
+    "halfwidth": 83,
+    "windows_ok": 6,
+    "steps": 0,
+    "wrap_len_px": 8256.24987697229,
+    "switch_offset_px": -1817.7501230277117,
+    "checkable": true
+   },
+   {
+    "x0": 16272,
+    "halfwidth": 188,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623165230-w118-119",
+  "render": "PHercParis4/segments/20260623165230-w118-119/ink-detection/downsampled/PHercParis4-20260623165230-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623165230-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 2,
+  "points": 42,
+  "pitch_px": 4943.0,
+  "per_gap": [
+   {
+    "x0": 3476,
+    "halfwidth": 217,
+    "windows_ok": 36,
+    "steps": 0,
+    "wrap_len_px": 8207.499877698721,
+    "switch_offset_px": -1678.5001223012798,
+    "checkable": true
+   },
+   {
+    "x0": 8095,
+    "halfwidth": 264,
+    "windows_ok": 6,
+    "steps": 0,
+    "wrap_len_px": 8357.499875463547,
+    "switch_offset_px": -1528.500124536453,
+    "checkable": true
+   },
+   {
+    "x0": 10671,
+    "halfwidth": 493,
+    "windows_ok": 5,
+    "steps": 0,
+    "wrap_len_px": 8324.999875947835,
+    "switch_offset_px": -1561.0001240521656,
+    "checkable": true
+   },
+   {
+    "x0": 16402,
+    "halfwidth": 260,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623165742-w120-121",
+  "render": "PHercParis4/segments/20260623165742-w120-121/ink-detection/downsampled/PHercParis4-20260623165742-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623165742-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 3,
+  "points": 23,
+  "pitch_px": 3823.0,
+  "per_gap": [
+   {
+    "x0": 5755,
+    "halfwidth": 256,
+    "windows_ok": 21,
+    "steps": 0,
+    "wrap_len_px": 8246.249877121301,
+    "switch_offset_px": 600.2498771213012,
+    "checkable": true
+   },
+   {
+    "x0": 8553,
+    "halfwidth": 797,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 13500,
+    "halfwidth": 143,
+    "windows_ok": 27,
+    "steps": 0,
+    "wrap_len_px": 8267.499876804652,
+    "switch_offset_px": 621.4998768046509,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623170305-w122-123",
+  "render": "PHercParis4/segments/20260623170305-w122-123/ink-detection/downsampled/PHercParis4-20260623170305-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623170305-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 8538,
+    "halfwidth": 902,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623170833-w124-125",
+  "render": "PHercParis4/segments/20260623170833-w124-125/ink-detection/downsampled/PHercParis4-20260623170833-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623170833-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 2,
+  "points": 34,
+  "pitch_px": 2600.0,
+  "per_gap": [
+   {
+    "x0": 1867,
+    "halfwidth": 130,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 6441,
+    "halfwidth": 122,
+    "windows_ok": 23,
+    "steps": 0,
+    "wrap_len_px": 8362.499875389041,
+    "switch_offset_px": 562.4998753890408,
+    "checkable": true
+   },
+   {
+    "x0": 8735,
+    "halfwidth": 357,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 11518,
+    "halfwidth": 191,
+    "windows_ok": 18,
+    "steps": 0,
+    "wrap_len_px": 8412.499874643983,
+    "switch_offset_px": 612.4998746439832,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260623171400-w126-127",
+  "render": "PHercParis4/segments/20260623171400-w126-127/ink-detection/downsampled/PHercParis4-20260623171400-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623171400-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 2,
+  "points": 47,
+  "pitch_px": 3928.5,
+  "per_gap": [
+   {
+    "x0": 7508,
+    "halfwidth": 433,
+    "windows_ok": 20,
+    "steps": 0,
+    "wrap_len_px": 8623.749871496113,
+    "switch_offset_px": 766.7498714961123,
+    "checkable": false
+   },
+   {
+    "x0": 10069,
+    "halfwidth": 442,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 15404,
+    "halfwidth": 146,
+    "windows_ok": 31,
+    "steps": 0,
+    "wrap_len_px": 8629.99987140298,
+    "switch_offset_px": 772.9998714029801,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260623171929-w128-129",
+  "render": "PHercParis4/segments/20260623171929-w128-129/ink-detection/downsampled/PHercParis4-20260623171929-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260623171929-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 1,
+  "points": 7,
+  "pitch_px": 5569.0,
+  "per_gap": [
+   {
+    "x0": 9750,
+    "halfwidth": 304,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 15234,
+    "halfwidth": 342,
+    "windows_ok": 12,
+    "steps": 0,
+    "wrap_len_px": 9171.249863337727,
+    "switch_offset_px": -1966.7501366622744,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183124-w010-027",
+  "render": "PHercParis4/segments/20260701183124-w010-027/ink-detection/downsampled/PHercParis4-20260701183124-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183124-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 5,
+  "points": 121,
+  "pitch_px": 5231.0,
+  "per_gap": [
+   {
+    "x0": 2776,
+    "halfwidth": 394,
+    "windows_ok": 49,
+    "steps": 0,
+    "wrap_len_px": 1717.499974407256,
+    "switch_offset_px": 1717.499974407256,
+    "checkable": true
+   },
+   {
+    "x0": 6589,
+    "halfwidth": 442,
+    "windows_ok": 59,
+    "steps": 0,
+    "wrap_len_px": 1538.7499770708387,
+    "switch_offset_px": 1538.7499770708387,
+    "checkable": true
+   },
+   {
+    "x0": 11204,
+    "halfwidth": 1145,
+    "windows_ok": 6,
+    "steps": 0,
+    "wrap_len_px": 1211.8749819416555,
+    "switch_offset_px": 1211.8749819416553,
+    "checkable": true
+   },
+   {
+    "x0": 17808,
+    "halfwidth": 251,
+    "windows_ok": 24,
+    "steps": 0,
+    "wrap_len_px": 828.1249876599761,
+    "switch_offset_px": 828.1249876599762,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183125-w028-037",
+  "render": "PHercParis4/segments/20260701183125-w028-037/ink-detection/downsampled/PHercParis4-20260701183125-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183125-on-20260411134726-2.4um.tifxyz",
+  "gaps": 5,
+  "collections": 7,
+  "points": 264,
+  "pitch_px": 4035.0,
+  "per_gap": [
+   {
+    "x0": 4407,
+    "halfwidth": 422,
+    "windows_ok": 57,
+    "steps": 0,
+    "wrap_len_px": 2413.7499640323226,
+    "switch_offset_px": -1621.2500359676774,
+    "checkable": true
+   },
+   {
+    "x0": 8403,
+    "halfwidth": 478,
+    "windows_ok": 51,
+    "steps": 0,
+    "wrap_len_px": 2264.9999662488704,
+    "switch_offset_px": -1770.0000337511296,
+    "checkable": true
+   },
+   {
+    "x0": 12263,
+    "halfwidth": 387,
+    "windows_ok": 54,
+    "steps": 0,
+    "wrap_len_px": 2129.999968260527,
+    "switch_offset_px": -1905.0000317394727,
+    "checkable": true
+   },
+   {
+    "x0": 16309,
+    "halfwidth": 420,
+    "windows_ok": 49,
+    "steps": 0,
+    "wrap_len_px": 1991.87497031875,
+    "switch_offset_px": 1991.87497031875,
+    "checkable": true
+   },
+   {
+    "x0": 20099,
+    "halfwidth": 375,
+    "windows_ok": 58,
+    "steps": 0,
+    "wrap_len_px": 1899.9999716877942,
+    "switch_offset_px": 1899.9999716877944,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183126-w038-045",
+  "render": "PHercParis4/segments/20260701183126-w038-045/ink-detection/downsampled/PHercParis4-20260701183126-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183126-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 8,
+  "points": 192,
+  "pitch_px": 3943.0,
+  "per_gap": [
+   {
+    "x0": 6501,
+    "halfwidth": 420,
+    "windows_ok": 48,
+    "steps": 2,
+    "wrap_len_px": 2956.2499559484427,
+    "switch_offset_px": -986.7500440515579,
+    "checkable": true
+   },
+   {
+    "x0": 10720,
+    "halfwidth": 396,
+    "windows_ok": 53,
+    "steps": 0,
+    "wrap_len_px": 2841.249957662076,
+    "switch_offset_px": -1101.7500423379238,
+    "checkable": true
+   },
+   {
+    "x0": 14940,
+    "halfwidth": 474,
+    "windows_ok": 46,
+    "steps": 0,
+    "wrap_len_px": 2738.1249591987585,
+    "switch_offset_px": -1204.8750408012418,
+    "checkable": true
+   },
+   {
+    "x0": 18698,
+    "halfwidth": 396,
+    "windows_ok": 56,
+    "steps": 0,
+    "wrap_len_px": 2651.249960493297,
+    "switch_offset_px": -1291.7500395067032,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183127-w046-052",
+  "render": "PHercParis4/segments/20260701183127-w046-052/ink-detection/downsampled/PHercParis4-20260701183127-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183127-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 2,
+  "points": 24,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 22674,
+    "halfwidth": 473,
+    "windows_ok": 25,
+    "steps": 17,
+    "wrap_len_px": 3269.999951273204,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183128-w053-058",
+  "render": "PHercParis4/segments/20260701183128-w053-058/ink-detection/downsampled/PHercParis4-20260701183128-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183128-on-20260411134726-2.4um.tifxyz",
+  "gaps": 5,
+  "collections": 9,
+  "points": 136,
+  "pitch_px": 4001.5,
+  "per_gap": [
+   {
+    "x0": 942,
+    "halfwidth": 401,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 8727,
+    "halfwidth": 508,
+    "windows_ok": 42,
+    "steps": 3,
+    "wrap_len_px": 3794.999943450094,
+    "switch_offset_px": -206.50005654990582,
+    "checkable": true
+   },
+   {
+    "x0": 12630,
+    "halfwidth": 323,
+    "windows_ok": 47,
+    "steps": 7,
+    "wrap_len_px": 3709.374944726006,
+    "switch_offset_px": -292.1250552739937,
+    "checkable": true
+   },
+   {
+    "x0": 16698,
+    "halfwidth": 545,
+    "windows_ok": 25,
+    "steps": 27,
+    "wrap_len_px": 3671.8749452847997,
+    "switch_offset_px": -329.62505471520035,
+    "checkable": true
+   },
+   {
+    "x0": 20722,
+    "halfwidth": 464,
+    "windows_ok": 42,
+    "steps": 8,
+    "wrap_len_px": 3667.4999453499922,
+    "switch_offset_px": -334.00005465000805,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183129-w059-063",
+  "render": "PHercParis4/segments/20260701183129-w059-063/ink-detection/downsampled/PHercParis4-20260701183129-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183129-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 4,
+  "points": 94,
+  "pitch_px": 8182.0,
+  "per_gap": [
+   {
+    "x0": 5910,
+    "halfwidth": 462,
+    "windows_ok": 48,
+    "steps": 0,
+    "wrap_len_px": 4391.249934565277,
+    "switch_offset_px": -3790.750065434722,
+    "checkable": true
+   },
+   {
+    "x0": 13934,
+    "halfwidth": 578,
+    "windows_ok": 50,
+    "steps": 0,
+    "wrap_len_px": 4236.249936874957,
+    "switch_offset_px": -3945.7500631250427,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183130-w064-068",
+  "render": "PHercParis4/segments/20260701183130-w064-068/ink-detection/downsampled/PHercParis4-20260701183130-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183130-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 2,
+  "points": 25,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 12986,
+    "halfwidth": 449,
+    "windows_ok": 29,
+    "steps": 30,
+    "wrap_len_px": 4675.624930327759,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183131-w069-072",
+  "render": "PHercParis4/segments/20260701183131-w069-072/ink-detection/downsampled/PHercParis4-20260701183131-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183131-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260701183132-w073-076",
+  "render": "PHercParis4/segments/20260701183132-w073-076/ink-detection/downsampled/PHercParis4-20260701183132-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183132-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260701183133-w077-080",
+  "render": "PHercParis4/segments/20260701183133-w077-080/ink-detection/downsampled/PHercParis4-20260701183133-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183133-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260701183134-w081-084",
+  "render": "PHercParis4/segments/20260701183134-w081-084/ink-detection/downsampled/PHercParis4-20260701183134-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183134-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260701183135-w085-088",
+  "render": "PHercParis4/segments/20260701183135-w085-088/ink-detection/downsampled/PHercParis4-20260701183135-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183135-on-20260411134726-2.4um.tifxyz",
+  "gaps": 0,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": null,
+  "per_gap": []
+ },
+ {
+  "segment": "20260701183136-w089-091",
+  "render": "PHercParis4/segments/20260701183136-w089-091/ink-detection/downsampled/PHercParis4-20260701183136-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183136-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 230,
+    "halfwidth": 102,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183137-w092-094",
+  "render": "PHercParis4/segments/20260701183137-w092-094/ink-detection/downsampled/PHercParis4-20260701183137-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183137-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 4,
+  "points": 47,
+  "pitch_px": 6846.0,
+  "per_gap": [
+   {
+    "x0": 273,
+    "halfwidth": 99,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 6988,
+    "halfwidth": 323,
+    "windows_ok": 36,
+    "steps": 0,
+    "wrap_len_px": 6747.499899454417,
+    "switch_offset_px": -98.5001005455834,
+    "checkable": false
+   },
+   {
+    "x0": 13882,
+    "halfwidth": 242,
+    "windows_ok": 22,
+    "steps": 15,
+    "wrap_len_px": 6739.999899566175,
+    "switch_offset_px": -106.00010043382377,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183138-w095-097",
+  "render": "PHercParis4/segments/20260701183138-w095-097/ink-detection/downsampled/PHercParis4-20260701183138-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183138-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 9,
+  "points": 95,
+  "pitch_px": 4559.0,
+  "per_gap": [
+   {
+    "x0": 8368,
+    "halfwidth": 257,
+    "windows_ok": 36,
+    "steps": 0,
+    "wrap_len_px": 6993.749895785006,
+    "switch_offset_px": -2124.2501042149943,
+    "checkable": true
+   },
+   {
+    "x0": 14303,
+    "halfwidth": 388,
+    "windows_ok": 32,
+    "steps": 0,
+    "wrap_len_px": 6932.499896697702,
+    "switch_offset_px": -2185.500103302298,
+    "checkable": true
+   },
+   {
+    "x0": 16656,
+    "halfwidth": 216,
+    "windows_ok": 43,
+    "steps": 0,
+    "wrap_len_px": 6908.749897051604,
+    "switch_offset_px": -2209.2501029483956,
+    "checkable": true
+   },
+   {
+    "x0": 20985,
+    "halfwidth": 193,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183139-w098-100",
+  "render": "PHercParis4/segments/20260701183139-w098-100/ink-detection/downsampled/PHercParis4-20260701183139-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183139-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 1,
+  "points": 8,
+  "pitch_px": 7313.0,
+  "per_gap": [
+   {
+    "x0": 288,
+    "halfwidth": 207,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 7670,
+    "halfwidth": 548,
+    "windows_ok": 12,
+    "steps": 4,
+    "wrap_len_px": 7174.3748930934835,
+    "switch_offset_px": -138.62510690651598,
+    "checkable": false
+   },
+   {
+    "x0": 14598,
+    "halfwidth": 529,
+    "windows_ok": 13,
+    "steps": 10,
+    "wrap_len_px": 7094.999894276263,
+    "switch_offset_px": -218.00010572373654,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183140-w101-103",
+  "render": "PHercParis4/segments/20260701183140-w101-103/ink-detection/downsampled/PHercParis4-20260701183140-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183140-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": 7104.0,
+  "per_gap": [
+   {
+    "x0": 7248,
+    "halfwidth": 636,
+    "windows_ok": 12,
+    "steps": 0,
+    "wrap_len_px": 7288.749891389163,
+    "switch_offset_px": 184.74989138916396,
+    "checkable": false
+   },
+   {
+    "x0": 14831,
+    "halfwidth": 473,
+    "windows_ok": 7,
+    "steps": 7,
+    "wrap_len_px": 7302.499891184272,
+    "switch_offset_px": 198.49989118427192,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183141-w104-106",
+  "render": "PHercParis4/segments/20260701183141-w104-106/ink-detection/downsampled/PHercParis4-20260701183141-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183141-on-20260411134726-2.4um.tifxyz",
+  "gaps": 5,
+  "collections": 5,
+  "points": 80,
+  "pitch_px": 5556.0,
+  "per_gap": [
+   {
+    "x0": 1505,
+    "halfwidth": 205,
+    "windows_ok": 20,
+    "steps": 0,
+    "wrap_len_px": 7511.249888073655,
+    "switch_offset_px": 1955.2498880736548,
+    "checkable": true
+   },
+   {
+    "x0": 6305,
+    "halfwidth": 281,
+    "windows_ok": 38,
+    "steps": 0,
+    "wrap_len_px": 7382.499889992179,
+    "switch_offset_px": 1826.4998899921793,
+    "checkable": true
+   },
+   {
+    "x0": 9029,
+    "halfwidth": 479,
+    "windows_ok": 19,
+    "steps": 0,
+    "wrap_len_px": 7442.49988909811,
+    "switch_offset_px": 1886.4998890981092,
+    "checkable": true
+   },
+   {
+    "x0": 16321,
+    "halfwidth": 401,
+    "windows_ok": 17,
+    "steps": 0,
+    "wrap_len_px": 7376.249890085312,
+    "switch_offset_px": 1820.249890085312,
+    "checkable": true
+   },
+   {
+    "x0": 22179,
+    "halfwidth": 294,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183142-w107-109",
+  "render": "PHercParis4/segments/20260701183142-w107-109/ink-detection/downsampled/PHercParis4-20260701183142-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183142-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 4,
+  "points": 58,
+  "pitch_px": 6771.5,
+  "per_gap": [
+   {
+    "x0": 8140,
+    "halfwidth": 270,
+    "windows_ok": 17,
+    "steps": 0,
+    "wrap_len_px": 7624.999886378648,
+    "switch_offset_px": 853.4998863786483,
+    "checkable": true
+   },
+   {
+    "x0": 15241,
+    "halfwidth": 414,
+    "windows_ok": 14,
+    "steps": 0,
+    "wrap_len_px": 7556.249887403103,
+    "switch_offset_px": 784.7498874031031,
+    "checkable": true
+   },
+   {
+    "x0": 21638,
+    "halfwidth": 197,
+    "windows_ok": 34,
+    "steps": 0,
+    "wrap_len_px": 7558.74988736585,
+    "switch_offset_px": 787.2498873658488,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183143-w110-112",
+  "render": "PHercParis4/segments/20260701183143-w110-112/ink-detection/downsampled/PHercParis4-20260701183143-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183143-on-20260411134726-2.4um.tifxyz",
+  "gaps": 6,
+  "collections": 9,
+  "points": 112,
+  "pitch_px": 3739.0,
+  "per_gap": [
+   {
+    "x0": 1435,
+    "halfwidth": 266,
+    "windows_ok": 16,
+    "steps": 0,
+    "wrap_len_px": 7863.7498828209955,
+    "switch_offset_px": 385.7498828209949,
+    "checkable": true
+   },
+   {
+    "x0": 4455,
+    "halfwidth": 418,
+    "windows_ok": 28,
+    "steps": 21,
+    "wrap_len_px": 7722.4998849257845,
+    "switch_offset_px": 244.49988492578458,
+    "checkable": true
+   },
+   {
+    "x0": 9238,
+    "halfwidth": 263,
+    "windows_ok": 22,
+    "steps": 0,
+    "wrap_len_px": 7798.749883789571,
+    "switch_offset_px": 320.74988378957084,
+    "checkable": false
+   },
+   {
+    "x0": 12401,
+    "halfwidth": 582,
+    "windows_ok": 37,
+    "steps": 11,
+    "wrap_len_px": 7704.999885186555,
+    "switch_offset_px": 226.99988518655553,
+    "checkable": false
+   },
+   {
+    "x0": 15973,
+    "halfwidth": 293,
+    "windows_ok": 10,
+    "steps": 10,
+    "wrap_len_px": 7753.749884460123,
+    "switch_offset_px": 275.74988446012355,
+    "checkable": true
+   },
+   {
+    "x0": 20650,
+    "halfwidth": 336,
+    "windows_ok": 24,
+    "steps": 7,
+    "wrap_len_px": 7679.999885559084,
+    "switch_offset_px": 201.99988555908334,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183144-w113-115",
+  "render": "PHercParis4/segments/20260701183144-w113-115/ink-detection/downsampled/PHercParis4-20260701183144-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183144-on-20260411134726-2.4um.tifxyz",
+  "gaps": 5,
+  "collections": 4,
+  "points": 31,
+  "pitch_px": 3923.0,
+  "per_gap": [
+   {
+    "x0": 1174,
+    "halfwidth": 321,
+    "windows_ok": 7,
+    "steps": 11,
+    "wrap_len_px": 8031.249880325051,
+    "switch_offset_px": 185.24988032505104,
+    "checkable": true
+   },
+   {
+    "x0": 9420,
+    "halfwidth": 151,
+    "windows_ok": 8,
+    "steps": 14,
+    "wrap_len_px": 7948.749881554397,
+    "switch_offset_px": 102.74988155439597,
+    "checkable": false
+   },
+   {
+    "x0": 12645,
+    "halfwidth": 297,
+    "windows_ok": 24,
+    "steps": 24,
+    "wrap_len_px": 7839.999883174898,
+    "switch_offset_px": -6.000116825101352,
+    "checkable": false
+   },
+   {
+    "x0": 17187,
+    "halfwidth": 143,
+    "windows_ok": 14,
+    "steps": 10,
+    "wrap_len_px": 7874.999882653357,
+    "switch_offset_px": 28.999882653357318,
+    "checkable": false
+   },
+   {
+    "x0": 20240,
+    "halfwidth": 436,
+    "windows_ok": 16,
+    "steps": 27,
+    "wrap_len_px": 7794.99988384545,
+    "switch_offset_px": -51.000116154550206,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183145-w116-117",
+  "render": "PHercParis4/segments/20260701183145-w116-117/ink-detection/downsampled/PHercParis4-20260701183145-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183145-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 6,
+  "points": 73,
+  "pitch_px": 3503.5,
+  "per_gap": [
+   {
+    "x0": 1302,
+    "halfwidth": 270,
+    "windows_ok": 26,
+    "steps": 0,
+    "wrap_len_px": 8242.49987717718,
+    "switch_offset_px": 1235.4998771771805,
+    "checkable": true
+   },
+   {
+    "x0": 5967,
+    "halfwidth": 614,
+    "windows_ok": 39,
+    "steps": 2,
+    "wrap_len_px": 8147.499878592791,
+    "switch_offset_px": 1140.4998785927908,
+    "checkable": true
+   },
+   {
+    "x0": 7997,
+    "halfwidth": 480,
+    "windows_ok": 13,
+    "steps": 0,
+    "wrap_len_px": 8242.49987717718,
+    "switch_offset_px": 1235.4998771771805,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183146-w118-119",
+  "render": "PHercParis4/segments/20260701183146-w118-119/ink-detection/downsampled/PHercParis4-20260701183146-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183146-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 3,
+  "points": 55,
+  "pitch_px": 6276.0,
+  "per_gap": [
+   {
+    "x0": 3440,
+    "halfwidth": 592,
+    "windows_ok": 37,
+    "steps": 0,
+    "wrap_len_px": 8202.499877773227,
+    "switch_offset_px": 1926.499877773227,
+    "checkable": true
+   },
+   {
+    "x0": 9558,
+    "halfwidth": 114,
+    "windows_ok": 22,
+    "steps": 0,
+    "wrap_len_px": 8339.999875724317,
+    "switch_offset_px": 2063.999875724317,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183147-w120-121",
+  "render": "PHercParis4/segments/20260701183147-w120-121/ink-detection/downsampled/PHercParis4-20260701183147-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183147-on-20260411134726-2.4um.tifxyz",
+  "gaps": 4,
+  "collections": 3,
+  "points": 24,
+  "pitch_px": 3980.0,
+  "per_gap": [
+   {
+    "x0": 2916,
+    "halfwidth": 192,
+    "windows_ok": 20,
+    "steps": 6,
+    "wrap_len_px": 8331.249875854703,
+    "switch_offset_px": 371.24987585470274,
+    "checkable": true
+   },
+   {
+    "x0": 5395,
+    "halfwidth": 84,
+    "windows_ok": 19,
+    "steps": 17,
+    "wrap_len_px": 8291.249876450749,
+    "switch_offset_px": 331.24987645074907,
+    "checkable": true
+   },
+   {
+    "x0": 9579,
+    "halfwidth": 366,
+    "windows_ok": 9,
+    "steps": 0,
+    "wrap_len_px": 8446.249874141069,
+    "switch_offset_px": 486.24987414106823,
+    "checkable": false
+   },
+   {
+    "x0": 16611,
+    "halfwidth": 290,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183148-w122-123",
+  "render": "PHercParis4/segments/20260701183148-w122-123/ink-detection/downsampled/PHercParis4-20260701183148-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183148-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 1,
+  "points": 16,
+  "pitch_px": 6979.0,
+  "per_gap": [
+   {
+    "x0": 3346,
+    "halfwidth": 668,
+    "windows_ok": 21,
+    "steps": 0,
+    "wrap_len_px": 8289.999876469376,
+    "switch_offset_px": 1310.9998764693762,
+    "checkable": true
+   },
+   {
+    "x0": 9431,
+    "halfwidth": 543,
+    "windows_ok": 1,
+    "steps": 0,
+    "wrap_len_px": 8449.99987408519,
+    "switch_offset_px": 1470.999874085189,
+    "checkable": false
+   },
+   {
+    "x0": 16307,
+    "halfwidth": 406,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183149-w124-125",
+  "render": "PHercParis4/segments/20260701183149-w124-125/ink-detection/downsampled/PHercParis4-20260701183149-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183149-on-20260411134726-2.4um.tifxyz",
+  "gaps": 2,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": 8724.0,
+  "per_gap": [
+   {
+    "x0": 884,
+    "halfwidth": 151,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 9822,
+    "halfwidth": 601,
+    "windows_ok": 1,
+    "steps": 0,
+    "wrap_len_px": 8182.49987807125,
+    "switch_offset_px": -541.5001219287489,
+    "checkable": false
+   }
+  ]
+ },
+ {
+  "segment": "20260701183150-w126-127",
+  "render": "PHercParis4/segments/20260701183150-w126-127/ink-detection/downsampled/PHercParis4-20260701183150-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183150-on-20260411134726-2.4um.tifxyz",
+  "gaps": 3,
+  "collections": 2,
+  "points": 26,
+  "pitch_px": 6930.5,
+  "per_gap": [
+   {
+    "x0": 2589,
+    "halfwidth": 108,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 9850,
+    "halfwidth": 425,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   },
+   {
+    "x0": 16498,
+    "halfwidth": 178,
+    "windows_ok": 29,
+    "steps": 0,
+    "wrap_len_px": 8819.99986857176,
+    "switch_offset_px": 1889.4998685717605,
+    "checkable": true
+   }
+  ]
+ },
+ {
+  "segment": "20260701183151-w128-129",
+  "render": "PHercParis4/segments/20260701183151-w128-129/ink-detection/downsampled/PHercParis4-20260701183151-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg",
+  "mesh": "20260701183151-on-20260411134726-2.4um.tifxyz",
+  "gaps": 1,
+  "collections": 0,
+  "points": 0,
+  "pitch_px": NaN,
+  "per_gap": [
+   {
+    "x0": 8515,
+    "halfwidth": 578,
+    "windows_ok": 0,
+    "steps": 0,
+    "wrap_len_px": NaN,
+    "switch_offset_px": NaN,
+    "checkable": false
+   }
+  ]
+ }
+]

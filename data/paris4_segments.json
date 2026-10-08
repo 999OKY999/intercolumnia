@@ -1,0 +1,1101 @@
+[
+ {
+  "seg": "20230702185753",
+  "ink": [
+   "PHercParis4/segments/20230702185753/ink-detection/downsampled/PHercParis4-20230702185753-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20230702185753/ink-detection/downsampled/PHercParis4-20230702185753-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20230702185753-on-20230205180739-7.91um.tifxyz",
+   "20230702185753-on-20260310170716-45.532um.tifxyz",
+   "20230702185753-on-20260411134726-2.4um.tifxyz",
+   "20230702185753-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20230929220926",
+  "ink": [
+   "PHercParis4/segments/20230929220926/ink-detection/downsampled/PHercParis4-20230929220926-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20230929220926-on-20230205180739-7.91um.tifxyz",
+   "20230929220926-on-20260310170716-45.532um.tifxyz",
+   "20230929220926-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231005123336",
+  "ink": [
+   "PHercParis4/segments/20231005123336/ink-detection/downsampled/PHercParis4-20231005123336-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231005123336-on-20230205180739-7.91um.tifxyz",
+   "20231005123336-on-20260310170716-45.532um.tifxyz",
+   "20231005123336-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231007101619",
+  "ink": [
+   "PHercParis4/segments/20231007101619/ink-detection/downsampled/PHercParis4-20231007101619-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20231007101619/ink-detection/downsampled/PHercParis4-20231007101619-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231007101619-on-20230205180739-7.91um.tifxyz",
+   "20231007101619-on-20260310170716-45.532um.tifxyz",
+   "20231007101619-on-20260411134726-2.4um.tifxyz",
+   "20231007101619-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231012184424",
+  "ink": [
+   "PHercParis4/segments/20231012184424/ink-detection/downsampled/PHercParis4-20231012184424-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20231012184424/ink-detection/downsampled/PHercParis4-20231012184424-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231012184424-on-20230205180739-7.91um.tifxyz",
+   "20231012184424-on-20260310170716-45.532um.tifxyz",
+   "20231012184424-on-20260411134726-2.4um.tifxyz",
+   "20231012184424-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231016151002",
+  "ink": [
+   "PHercParis4/segments/20231016151002/ink-detection/downsampled/PHercParis4-20231016151002-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231016151002-on-20230205180739-7.91um.tifxyz",
+   "20231016151002-on-20260310170716-45.532um.tifxyz",
+   "20231016151002-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231022170901",
+  "ink": [
+   "PHercParis4/segments/20231022170901/ink-detection/downsampled/PHercParis4-20231022170901-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231022170901-on-20230205180739-7.91um.tifxyz",
+   "20231022170901-on-20260310170716-45.532um.tifxyz",
+   "20231022170901-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231031143852",
+  "ink": [
+   "PHercParis4/segments/20231031143852/ink-detection/downsampled/PHercParis4-20231031143852-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20231031143852/ink-detection/downsampled/PHercParis4-20231031143852-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231031143852-on-20230205180739-7.91um.tifxyz",
+   "20231031143852-on-20260310170716-45.532um.tifxyz",
+   "20231031143852-on-20260411134726-2.4um.tifxyz",
+   "20231031143852-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231106155351",
+  "ink": [
+   "PHercParis4/segments/20231106155351/ink-detection/downsampled/PHercParis4-20231106155351-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20231106155351/ink-detection/downsampled/PHercParis4-20231106155351-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231106155351-on-20230205180739-7.91um.tifxyz",
+   "20231106155351-on-20260310170716-45.532um.tifxyz",
+   "20231106155351-on-20260411134726-2.4um.tifxyz",
+   "20231106155351-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231210121321",
+  "ink": [
+   "PHercParis4/segments/20231210121321/ink-detection/downsampled/PHercParis4-20231210121321-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20231210121321/ink-detection/downsampled/PHercParis4-20231210121321-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231210121321-on-20230205180739-7.91um.tifxyz",
+   "20231210121321-on-20260310170716-45.532um.tifxyz",
+   "20231210121321-on-20260411134726-2.4um.tifxyz",
+   "20231210121321-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20231221180251",
+  "ink": [
+   "PHercParis4/segments/20231221180251/ink-detection/downsampled/PHercParis4-20231221180251-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20231221180251/ink-detection/downsampled/PHercParis4-20231221180251-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20231221180251-on-20230205180739-7.91um.tifxyz",
+   "20231221180251-on-20260310170716-45.532um.tifxyz",
+   "20231221180251-on-20260411134726-2.4um.tifxyz",
+   "20231221180251-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260602204401-5753_-7",
+  "ink": [
+   "PHercParis4/segments/20260602204401-5753_-7/ink-detection/downsampled/PHercParis4-20260602204401-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260602204401-5753_-7/ink-detection/downsampled/PHercParis4-20260602204401-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260602204401-on-20230205180739-7.91um.tifxyz",
+   "20260602204401-on-20260310170716-45.532um.tifxyz",
+   "20260602204401-on-20260411134726-2.4um.tifxyz",
+   "20260602204401-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260602225659-5753_0",
+  "ink": [
+   "PHercParis4/segments/20260602225659-5753_0/ink-detection/downsampled/PHercParis4-20260602225659-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260602225659-on-20230205180739-7.91um.tifxyz",
+   "20260602225659-on-20260310170716-45.532um.tifxyz",
+   "20260602225659-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260602230115-20230702185753_v14",
+  "ink": [
+   "PHercParis4/segments/20260602230115-20230702185753_v14/ink-detection/downsampled/PHercParis4-20260602230115-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260602230115-on-20260310170716-45.532um.tifxyz",
+   "20260602230115-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603005223-5753_-1",
+  "ink": [
+   "PHercParis4/segments/20260603005223-5753_-1/ink-detection/downsampled/PHercParis4-20260603005223-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603005223-on-20230205180739-7.91um.tifxyz",
+   "20260603005223-on-20260310170716-45.532um.tifxyz",
+   "20260603005223-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603024952-5753_-2",
+  "ink": [
+   "PHercParis4/segments/20260603024952-5753_-2/ink-detection/downsampled/PHercParis4-20260603024952-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260603024952-5753_-2/ink-detection/downsampled/PHercParis4-20260603024952-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603024952-on-20230205180739-7.91um.tifxyz",
+   "20260603024952-on-20260310170716-45.532um.tifxyz",
+   "20260603024952-on-20260411134726-2.4um.tifxyz",
+   "20260603024952-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603042357-5753_-3",
+  "ink": [
+   "PHercParis4/segments/20260603042357-5753_-3/ink-detection/downsampled/PHercParis4-20260603042357-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260603042357-5753_-3/ink-detection/downsampled/PHercParis4-20260603042357-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603042357-on-20230205180739-7.91um.tifxyz",
+   "20260603042357-on-20260310170716-45.532um.tifxyz",
+   "20260603042357-on-20260411134726-2.4um.tifxyz",
+   "20260603042357-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603145540-5753_-4",
+  "ink": [
+   "PHercParis4/segments/20260603145540-5753_-4/ink-detection/downsampled/PHercParis4-20260603145540-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260603145540-5753_-4/ink-detection/downsampled/PHercParis4-20260603145540-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603145540-on-20230205180739-7.91um.tifxyz",
+   "20260603145540-on-20260310170716-45.532um.tifxyz",
+   "20260603145540-on-20260411134726-2.4um.tifxyz",
+   "20260603145540-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603185441-5753_-6",
+  "ink": [
+   "PHercParis4/segments/20260603185441-5753_-6/ink-detection/downsampled/PHercParis4-20260603185441-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260603185441-5753_-6/ink-detection/downsampled/PHercParis4-20260603185441-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603185441-on-20230205180739-7.91um.tifxyz",
+   "20260603185441-on-20260310170716-45.532um.tifxyz",
+   "20260603185441-on-20260411134726-2.4um.tifxyz",
+   "20260603185441-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603190005-5753_-5",
+  "ink": [
+   "PHercParis4/segments/20260603190005-5753_-5/ink-detection/downsampled/PHercParis4-20260603190005-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260603190005-5753_-5/ink-detection/downsampled/PHercParis4-20260603190005-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603190005-on-20230205180739-7.91um.tifxyz",
+   "20260603190005-on-20260310170716-45.532um.tifxyz",
+   "20260603190005-on-20260411134726-2.4um.tifxyz",
+   "20260603190005-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603193311-5753_-1_copy",
+  "ink": [
+   "PHercParis4/segments/20260603193311-5753_-1_copy/ink-detection/downsampled/PHercParis4-20260603193311-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260603193311-5753_-1_copy/ink-detection/downsampled/PHercParis4-20260603193311-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603193311-on-20230205180739-7.91um.tifxyz",
+   "20260603193311-on-20260310170716-45.532um.tifxyz",
+   "20260603193311-on-20260411134726-2.4um.tifxyz",
+   "20260603193311-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260603222816-20231005123336_v2_flatboi",
+  "ink": [
+   "PHercParis4/segments/20260603222816-20231005123336_v2_flatboi/ink-detection/downsampled/PHercParis4-20260603222816-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260603222816-20231005123336_v2_flatboi/ink-detection/downsampled/PHercParis4-20260603222816-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260603222816-on-20230205180739-7.91um.tifxyz",
+   "20260603222816-on-20260310170716-45.532um.tifxyz",
+   "20260603222816-on-20260411134726-2.4um.tifxyz",
+   "20260603222816-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260604223808-20231210121321_v8",
+  "ink": [
+   "PHercParis4/segments/20260604223808-20231210121321_v8/ink-detection/downsampled/PHercParis4-20260604223808-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260604223808-20231210121321_v8/ink-detection/downsampled/PHercParis4-20260604223808-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260604223808-on-20230205180739-7.91um.tifxyz",
+   "20260604223808-on-20260310170716-45.532um.tifxyz",
+   "20260604223808-on-20260411134726-2.4um.tifxyz",
+   "20260604223808-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623141135-w046-052_jordi",
+  "ink": [
+   "PHercParis4/segments/20260623141135-w046-052_jordi/ink-detection/downsampled/PHercParis4-20260623141135-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623141135-w046-052_jordi/ink-detection/downsampled/PHercParis4-20260623141135-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623141135-on-20230205180739-7.91um.tifxyz",
+   "20260623141135-on-20260310170716-45.532um.tifxyz",
+   "20260623141135-on-20260411134726-2.4um.tifxyz",
+   "20260623141135-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623141649-w053-058_jordi",
+  "ink": [
+   "PHercParis4/segments/20260623141649-w053-058_jordi/ink-detection/downsampled/PHercParis4-20260623141649-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623141649-w053-058_jordi/ink-detection/downsampled/PHercParis4-20260623141649-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623141649-on-20230205180739-7.91um.tifxyz",
+   "20260623141649-on-20260310170716-45.532um.tifxyz",
+   "20260623141649-on-20260411134726-2.4um.tifxyz",
+   "20260623141649-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623141924-w010-027",
+  "ink": [
+   "PHercParis4/segments/20260623141924-w010-027/ink-detection/downsampled/PHercParis4-20260623141924-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623141924-w010-027/ink-detection/downsampled/PHercParis4-20260623141924-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623141924-on-20230205180739-7.91um.tifxyz",
+   "20260623141924-on-20260310170716-45.532um.tifxyz",
+   "20260623141924-on-20260411134726-2.4um.tifxyz",
+   "20260623141924-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623142658-w028-037",
+  "ink": [
+   "PHercParis4/segments/20260623142658-w028-037/ink-detection/downsampled/PHercParis4-20260623142658-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623142658-w028-037/ink-detection/downsampled/PHercParis4-20260623142658-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623142658-on-20230205180739-7.91um.tifxyz",
+   "20260623142658-on-20260310170716-45.532um.tifxyz",
+   "20260623142658-on-20260411134726-2.4um.tifxyz",
+   "20260623142658-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623143441-w038-045",
+  "ink": [
+   "PHercParis4/segments/20260623143441-w038-045/ink-detection/downsampled/PHercParis4-20260623143441-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623143441-w038-045/ink-detection/downsampled/PHercParis4-20260623143441-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623143441-on-20230205180739-7.91um.tifxyz",
+   "20260623143441-on-20260310170716-45.532um.tifxyz",
+   "20260623143441-on-20260411134726-2.4um.tifxyz",
+   "20260623143441-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623144224-w046-052",
+  "ink": [
+   "PHercParis4/segments/20260623144224-w046-052/ink-detection/downsampled/PHercParis4-20260623144224-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623144224-w046-052/ink-detection/downsampled/PHercParis4-20260623144224-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623144224-on-20230205180739-7.91um.tifxyz",
+   "20260623144224-on-20260310170716-45.532um.tifxyz",
+   "20260623144224-on-20260411134726-2.4um.tifxyz",
+   "20260623144224-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623144957-w053-058",
+  "ink": [
+   "PHercParis4/segments/20260623144957-w053-058/ink-detection/downsampled/PHercParis4-20260623144957-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623144957-w053-058/ink-detection/downsampled/PHercParis4-20260623144957-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623144957-on-20230205180739-7.91um.tifxyz",
+   "20260623144957-on-20260310170716-45.532um.tifxyz",
+   "20260623144957-on-20260411134726-2.4um.tifxyz",
+   "20260623144957-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623145652-w059-063",
+  "ink": [
+   "PHercParis4/segments/20260623145652-w059-063/ink-detection/downsampled/PHercParis4-20260623145652-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623145652-w059-063/ink-detection/downsampled/PHercParis4-20260623145652-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623145652-on-20230205180739-7.91um.tifxyz",
+   "20260623145652-on-20260310170716-45.532um.tifxyz",
+   "20260623145652-on-20260411134726-2.4um.tifxyz",
+   "20260623145652-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623150417-w064-068",
+  "ink": [
+   "PHercParis4/segments/20260623150417-w064-068/ink-detection/downsampled/PHercParis4-20260623150417-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623150417-w064-068/ink-detection/downsampled/PHercParis4-20260623150417-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623150417-on-20230205180739-7.91um.tifxyz",
+   "20260623150417-on-20260310170716-45.532um.tifxyz",
+   "20260623150417-on-20260411134726-2.4um.tifxyz",
+   "20260623150417-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623151041-w069-072",
+  "ink": [
+   "PHercParis4/segments/20260623151041-w069-072/ink-detection/downsampled/PHercParis4-20260623151041-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623151041-w069-072/ink-detection/downsampled/PHercParis4-20260623151041-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623151041-on-20230205180739-7.91um.tifxyz",
+   "20260623151041-on-20260310170716-45.532um.tifxyz",
+   "20260623151041-on-20260411134726-2.4um.tifxyz",
+   "20260623151041-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623151729-w073-076",
+  "ink": [
+   "PHercParis4/segments/20260623151729-w073-076/ink-detection/downsampled/PHercParis4-20260623151729-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623151729-w073-076/ink-detection/downsampled/PHercParis4-20260623151729-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623151729-on-20230205180739-7.91um.tifxyz",
+   "20260623151729-on-20260310170716-45.532um.tifxyz",
+   "20260623151729-on-20260411134726-2.4um.tifxyz",
+   "20260623151729-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623152443-w077-080",
+  "ink": [
+   "PHercParis4/segments/20260623152443-w077-080/ink-detection/downsampled/PHercParis4-20260623152443-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623152443-w077-080/ink-detection/downsampled/PHercParis4-20260623152443-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623152443-on-20230205180739-7.91um.tifxyz",
+   "20260623152443-on-20260310170716-45.532um.tifxyz",
+   "20260623152443-on-20260411134726-2.4um.tifxyz",
+   "20260623152443-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623153216-w081-084",
+  "ink": [
+   "PHercParis4/segments/20260623153216-w081-084/ink-detection/downsampled/PHercParis4-20260623153216-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623153216-w081-084/ink-detection/downsampled/PHercParis4-20260623153216-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623153216-on-20230205180739-7.91um.tifxyz",
+   "20260623153216-on-20260310170716-45.532um.tifxyz",
+   "20260623153216-on-20260411134726-2.4um.tifxyz",
+   "20260623153216-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623154006-w085-088",
+  "ink": [
+   "PHercParis4/segments/20260623154006-w085-088/ink-detection/downsampled/PHercParis4-20260623154006-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623154006-w085-088/ink-detection/downsampled/PHercParis4-20260623154006-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623154006-on-20230205180739-7.91um.tifxyz",
+   "20260623154006-on-20260310170716-45.532um.tifxyz",
+   "20260623154006-on-20260411134726-2.4um.tifxyz",
+   "20260623154006-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623154617-w089-091",
+  "ink": [
+   "PHercParis4/segments/20260623154617-w089-091/ink-detection/downsampled/PHercParis4-20260623154617-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623154617-w089-091/ink-detection/downsampled/PHercParis4-20260623154617-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623154617-on-20230205180739-7.91um.tifxyz",
+   "20260623154617-on-20260310170716-45.532um.tifxyz",
+   "20260623154617-on-20260411134726-2.4um.tifxyz",
+   "20260623154617-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623155240-w092-094",
+  "ink": [
+   "PHercParis4/segments/20260623155240-w092-094/ink-detection/downsampled/PHercParis4-20260623155240-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623155240-w092-094/ink-detection/downsampled/PHercParis4-20260623155240-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623155240-on-20230205180739-7.91um.tifxyz",
+   "20260623155240-on-20260310170716-45.532um.tifxyz",
+   "20260623155240-on-20260411134726-2.4um.tifxyz",
+   "20260623155240-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623155914-w095-097",
+  "ink": [
+   "PHercParis4/segments/20260623155914-w095-097/ink-detection/downsampled/PHercParis4-20260623155914-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623155914-on-20230205180739-7.91um.tifxyz",
+   "20260623155914-on-20260310170716-45.532um.tifxyz",
+   "20260623155914-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623160554-w098-100",
+  "ink": [
+   "PHercParis4/segments/20260623160554-w098-100/ink-detection/downsampled/PHercParis4-20260623160554-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623160554-on-20230205180739-7.91um.tifxyz",
+   "20260623160554-on-20260310170716-45.532um.tifxyz",
+   "20260623160554-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623161233-w101-103",
+  "ink": [
+   "PHercParis4/segments/20260623161233-w101-103/ink-detection/downsampled/PHercParis4-20260623161233-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623161233-on-20230205180739-7.91um.tifxyz",
+   "20260623161233-on-20260310170716-45.532um.tifxyz",
+   "20260623161233-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623161921-w104-106",
+  "ink": [],
+  "meshes": [
+   "mesh",
+   "20260623161921-on-20230205180739-7.91um.tifxyz",
+   "20260623161921-on-20260310170716-45.532um.tifxyz",
+   "20260623161921-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623162614-w107-109",
+  "ink": [
+   "PHercParis4/segments/20260623162614-w107-109/ink-detection/downsampled/PHercParis4-20260623162614-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623162614-on-20230205180739-7.91um.tifxyz",
+   "20260623162614-on-20260310170716-45.532um.tifxyz",
+   "20260623162614-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623163339-w110-112",
+  "ink": [
+   "PHercParis4/segments/20260623163339-w110-112/ink-detection/downsampled/PHercParis4-20260623163339-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623163339-on-20230205180739-7.91um.tifxyz",
+   "20260623163339-on-20260310170716-45.532um.tifxyz",
+   "20260623163339-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623164141-w113-115",
+  "ink": [
+   "PHercParis4/segments/20260623164141-w113-115/ink-detection/downsampled/PHercParis4-20260623164141-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623164141-w113-115/ink-detection/downsampled/PHercParis4-20260623164141-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623164141-on-20230205180739-7.91um.tifxyz",
+   "20260623164141-on-20260310170716-45.532um.tifxyz",
+   "20260623164141-on-20260411134726-2.4um.tifxyz",
+   "20260623164141-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623164704-w116-117",
+  "ink": [
+   "PHercParis4/segments/20260623164704-w116-117/ink-detection/downsampled/PHercParis4-20260623164704-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623164704-w116-117/ink-detection/downsampled/PHercParis4-20260623164704-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623164704-on-20230205180739-7.91um.tifxyz",
+   "20260623164704-on-20260310170716-45.532um.tifxyz",
+   "20260623164704-on-20260411134726-2.4um.tifxyz",
+   "20260623164704-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623165230-w118-119",
+  "ink": [
+   "PHercParis4/segments/20260623165230-w118-119/ink-detection/downsampled/PHercParis4-20260623165230-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623165230-w118-119/ink-detection/downsampled/PHercParis4-20260623165230-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623165230-on-20230205180739-7.91um.tifxyz",
+   "20260623165230-on-20260310170716-45.532um.tifxyz",
+   "20260623165230-on-20260411134726-2.4um.tifxyz",
+   "20260623165230-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623165742-w120-121",
+  "ink": [
+   "PHercParis4/segments/20260623165742-w120-121/ink-detection/downsampled/PHercParis4-20260623165742-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623165742-w120-121/ink-detection/downsampled/PHercParis4-20260623165742-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623165742-on-20230205180739-7.91um.tifxyz",
+   "20260623165742-on-20260310170716-45.532um.tifxyz",
+   "20260623165742-on-20260411134726-2.4um.tifxyz",
+   "20260623165742-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623170305-w122-123",
+  "ink": [
+   "PHercParis4/segments/20260623170305-w122-123/ink-detection/downsampled/PHercParis4-20260623170305-1.129um-0.23m-78keV-volume-20260608103018-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128-ds8.jpg",
+   "PHercParis4/segments/20260623170305-w122-123/ink-detection/downsampled/PHercParis4-20260623170305-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623170305-on-20230205180739-7.91um.tifxyz",
+   "20260623170305-on-20260310170716-45.532um.tifxyz",
+   "20260623170305-on-20260411134726-2.4um.tifxyz",
+   "20260623170305-on-20260608103018-1.129um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623170833-w124-125",
+  "ink": [
+   "PHercParis4/segments/20260623170833-w124-125/ink-detection/downsampled/PHercParis4-20260623170833-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623170833-on-20230205180739-7.91um.tifxyz",
+   "20260623170833-on-20260310170716-45.532um.tifxyz",
+   "20260623170833-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623171400-w126-127",
+  "ink": [
+   "PHercParis4/segments/20260623171400-w126-127/ink-detection/downsampled/PHercParis4-20260623171400-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623171400-on-20230205180739-7.91um.tifxyz",
+   "20260623171400-on-20260310170716-45.532um.tifxyz",
+   "20260623171400-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260623171929-w128-129",
+  "ink": [
+   "PHercParis4/segments/20260623171929-w128-129/ink-detection/downsampled/PHercParis4-20260623171929-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260623171929-on-20230205180739-7.91um.tifxyz",
+   "20260623171929-on-20260310170716-45.532um.tifxyz",
+   "20260623171929-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183124-w010-027",
+  "ink": [
+   "PHercParis4/segments/20260701183124-w010-027/ink-detection/downsampled/PHercParis4-20260701183124-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183124-on-20230205180739-7.91um.tifxyz",
+   "20260701183124-on-20260310170716-45.532um.tifxyz",
+   "20260701183124-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183125-w028-037",
+  "ink": [
+   "PHercParis4/segments/20260701183125-w028-037/ink-detection/downsampled/PHercParis4-20260701183125-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183125-on-20230205180739-7.91um.tifxyz",
+   "20260701183125-on-20260310170716-45.532um.tifxyz",
+   "20260701183125-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183126-w038-045",
+  "ink": [
+   "PHercParis4/segments/20260701183126-w038-045/ink-detection/downsampled/PHercParis4-20260701183126-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183126-on-20230205180739-7.91um.tifxyz",
+   "20260701183126-on-20260310170716-45.532um.tifxyz",
+   "20260701183126-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183127-w046-052",
+  "ink": [
+   "PHercParis4/segments/20260701183127-w046-052/ink-detection/downsampled/PHercParis4-20260701183127-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183127-on-20260310170716-45.532um.tifxyz",
+   "20260701183127-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183128-w053-058",
+  "ink": [
+   "PHercParis4/segments/20260701183128-w053-058/ink-detection/downsampled/PHercParis4-20260701183128-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183128-on-20260310170716-45.532um.tifxyz",
+   "20260701183128-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183129-w059-063",
+  "ink": [
+   "PHercParis4/segments/20260701183129-w059-063/ink-detection/downsampled/PHercParis4-20260701183129-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183129-on-20260310170716-45.532um.tifxyz",
+   "20260701183129-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183130-w064-068",
+  "ink": [
+   "PHercParis4/segments/20260701183130-w064-068/ink-detection/downsampled/PHercParis4-20260701183130-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183130-on-20260310170716-45.532um.tifxyz",
+   "20260701183130-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183131-w069-072",
+  "ink": [
+   "PHercParis4/segments/20260701183131-w069-072/ink-detection/downsampled/PHercParis4-20260701183131-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183131-on-20260310170716-45.532um.tifxyz",
+   "20260701183131-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183132-w073-076",
+  "ink": [
+   "PHercParis4/segments/20260701183132-w073-076/ink-detection/downsampled/PHercParis4-20260701183132-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183132-on-20260310170716-45.532um.tifxyz",
+   "20260701183132-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183133-w077-080",
+  "ink": [
+   "PHercParis4/segments/20260701183133-w077-080/ink-detection/downsampled/PHercParis4-20260701183133-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183133-on-20260310170716-45.532um.tifxyz",
+   "20260701183133-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183134-w081-084",
+  "ink": [
+   "PHercParis4/segments/20260701183134-w081-084/ink-detection/downsampled/PHercParis4-20260701183134-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183134-on-20260310170716-45.532um.tifxyz",
+   "20260701183134-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183135-w085-088",
+  "ink": [
+   "PHercParis4/segments/20260701183135-w085-088/ink-detection/downsampled/PHercParis4-20260701183135-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183135-on-20260310170716-45.532um.tifxyz",
+   "20260701183135-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183136-w089-091",
+  "ink": [
+   "PHercParis4/segments/20260701183136-w089-091/ink-detection/downsampled/PHercParis4-20260701183136-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183136-on-20260310170716-45.532um.tifxyz",
+   "20260701183136-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183137-w092-094",
+  "ink": [
+   "PHercParis4/segments/20260701183137-w092-094/ink-detection/downsampled/PHercParis4-20260701183137-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183137-on-20260310170716-45.532um.tifxyz",
+   "20260701183137-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183138-w095-097",
+  "ink": [
+   "PHercParis4/segments/20260701183138-w095-097/ink-detection/downsampled/PHercParis4-20260701183138-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183138-on-20260310170716-45.532um.tifxyz",
+   "20260701183138-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183139-w098-100",
+  "ink": [
+   "PHercParis4/segments/20260701183139-w098-100/ink-detection/downsampled/PHercParis4-20260701183139-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183139-on-20260310170716-45.532um.tifxyz",
+   "20260701183139-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183140-w101-103",
+  "ink": [
+   "PHercParis4/segments/20260701183140-w101-103/ink-detection/downsampled/PHercParis4-20260701183140-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183140-on-20260310170716-45.532um.tifxyz",
+   "20260701183140-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183141-w104-106",
+  "ink": [
+   "PHercParis4/segments/20260701183141-w104-106/ink-detection/downsampled/PHercParis4-20260701183141-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183141-on-20260310170716-45.532um.tifxyz",
+   "20260701183141-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183142-w107-109",
+  "ink": [
+   "PHercParis4/segments/20260701183142-w107-109/ink-detection/downsampled/PHercParis4-20260701183142-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183142-on-20260310170716-45.532um.tifxyz",
+   "20260701183142-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183143-w110-112",
+  "ink": [
+   "PHercParis4/segments/20260701183143-w110-112/ink-detection/downsampled/PHercParis4-20260701183143-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183143-on-20260310170716-45.532um.tifxyz",
+   "20260701183143-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183144-w113-115",
+  "ink": [
+   "PHercParis4/segments/20260701183144-w113-115/ink-detection/downsampled/PHercParis4-20260701183144-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183144-on-20260310170716-45.532um.tifxyz",
+   "20260701183144-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183145-w116-117",
+  "ink": [
+   "PHercParis4/segments/20260701183145-w116-117/ink-detection/downsampled/PHercParis4-20260701183145-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183145-on-20260310170716-45.532um.tifxyz",
+   "20260701183145-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183146-w118-119",
+  "ink": [
+   "PHercParis4/segments/20260701183146-w118-119/ink-detection/downsampled/PHercParis4-20260701183146-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183146-on-20260310170716-45.532um.tifxyz",
+   "20260701183146-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183147-w120-121",
+  "ink": [
+   "PHercParis4/segments/20260701183147-w120-121/ink-detection/downsampled/PHercParis4-20260701183147-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183147-on-20260310170716-45.532um.tifxyz",
+   "20260701183147-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183148-w122-123",
+  "ink": [
+   "PHercParis4/segments/20260701183148-w122-123/ink-detection/downsampled/PHercParis4-20260701183148-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183148-on-20260310170716-45.532um.tifxyz",
+   "20260701183148-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183149-w124-125",
+  "ink": [
+   "PHercParis4/segments/20260701183149-w124-125/ink-detection/downsampled/PHercParis4-20260701183149-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183149-on-20260310170716-45.532um.tifxyz",
+   "20260701183149-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183150-w126-127",
+  "ink": [
+   "PHercParis4/segments/20260701183150-w126-127/ink-detection/downsampled/PHercParis4-20260701183150-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183150-on-20260310170716-45.532um.tifxyz",
+   "20260701183150-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ },
+ {
+  "seg": "20260701183151-w128-129",
+  "ink": [
+   "PHercParis4/segments/20260701183151-w128-129/ink-detection/downsampled/PHercParis4-20260701183151-2.4um-0.22m-78keV-volume-20260411134726-20260417190342-new_canon_autoresearch_recipe-tile256-stride128-ds8.jpg"
+  ],
+  "meshes": [
+   "mesh",
+   "20260701183151-on-20260310170716-45.532um.tifxyz",
+   "20260701183151-on-20260411134726-2.4um.tifxyz",
+   "intermediate"
+  ]
+ }
+]
