@@ -463,12 +463,14 @@ def process(args):
         # pitch. The scroll-wide pitch and this segment's own gap spacing can
         # disagree (a missed gap doubles the spacing; a strip that repeats
         # every turn makes it one turn), so both are used and the smaller
-        # shift decides: it sets the step threshold and whether a switch
-        # would be visible at all.
+        # shift decides whether a switch would be visible at all. It also
+        # sets the step threshold, but only when the segment has its own
+        # spacing; with a single gap any clear jump cuts the line.
         off = switch_offset(wl_px, pitch) if np.isfinite(wl_px) and np.isfinite(pitch) else np.nan
         off_sp = switch_offset(wl_px, spacing) if np.isfinite(wl_px) and np.isfinite(spacing) else np.nan
         offs = [abs(o) for o in (off, off_sp) if np.isfinite(o)]
         off_min = min(offs) if offs else np.nan
+        off_step = off_min if np.isfinite(off_sp) else np.nan
         # Line starts of the right-hand column are the sharpest, most regular
         # edge (line ends are ragged), so jumps are measured on them.
         xc = np.array([r['edge_right'] for r in g['trace']], float)
@@ -477,7 +479,7 @@ def process(args):
         # can see; a one-turn switch moves the gap by `off`.
         noise = float(1.4826 * np.median(np.abs(np.diff(xc[idx]) - np.median(np.diff(xc[idx]))))) if idx.size > 3 else np.nan
         min_step = max(4.0 * noise, 60.0) if np.isfinite(noise) else np.inf
-        steps = find_steps(xc, g['ok'], max(min_step, 0.6 * off_min) if np.isfinite(off_min) else min_step)
+        steps = find_steps(xc, g['ok'], max(min_step, 0.6 * off_step) if np.isfinite(off_step) else min_step)
         g['steps'] = steps
         g['ok'] = bridge(g['ok'] & ~steps)
         g['pitch_px'] = pitch
@@ -486,7 +488,8 @@ def process(args):
         g['switch_offset_px'] = off
         g['switch_offset_spacing_px'] = off_sp
         g['centre_noise_px'] = noise
-        g['switch_checkable'] = bool(np.isfinite(off_min) and 0.6 * off_min >= min_step)
+        # find_steps needs six clean windows; with fewer no jump was looked for.
+        g['switch_checkable'] = bool(idx.size >= 6 and np.isfinite(off_min) and 0.6 * off_min >= min_step)
         ok, rr = g['ok'], g['r']
         print(f"gap {g['index']}: x0={g['x0']} hw={g['halfwidth']} prom={g['prominence']:.3f} "
               f"windows={len(g['trace'])} 2d_ok={g['ok2d'].sum()} torn={g['flag3d'].sum()} "

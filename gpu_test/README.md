@@ -100,8 +100,8 @@ What it does:
    loader, because the fitter silently treats an unreadable file as empty.
 4. **Pilot**: a 600-step fit of B. It catches setup errors in minutes,
    measures the GPU's speed and projects the total time. Unless `Z_BEGIN` and
-   `Z_END` are set, it tries z 8000-14000 (1,860 gap points) and falls back to
-   10500-11500 (289 points) if the wide range fails or would take longer than
+   `Z_END` are set, it tries z 8000-14000 (1,590 gap points) and falls back to
+   10500-11500 (247 points) if the wide range fails or would take longer than
    `MAX_HOURS`.
 5. Fits A and B for each seed (default 30,000 steps, as in `config.py`; with
    fewer steps the distance-transform phase is moved so it keeps its share).

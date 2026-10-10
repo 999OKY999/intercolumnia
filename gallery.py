@@ -123,8 +123,8 @@ def main():
         (f'{n_col}', 'same-winding lines'),
         (f'{n_pts:,}', 'points in the volume'),
         (f'{len(rows)} / {n_render}', 'segments with an ink render that gave lines'),
-        (every['pct'](every['kept'] + every['weak']),
-         f'of {every["n"]:,} cross-checked points fall in a gap of another trace and on text in none'),
+        (other['pct'](other['kept'] + other['weak']),
+         f'of {other["n"]:,} points checked against another family\'s trace fall in a gap there and on text in none'),
         (f'{spacing_vox * 2.4:.0f} µm', 'sheet spacing from the data'),
     ]
     fig_html = ''.join(f'<div class="fig"><span class="v">{esc(v)}</span><span class="k">{esc(k)}</span></div>'
@@ -149,12 +149,16 @@ def main():
         f"<tr><td>{esc(c['a'])}</td><td>{esc(c['b'])}</td><td>{', '.join(f'{v:.0f}' for v in c['p'])}</td><td>{c['normal_offset']:.0f}</td></tr>"
         for c in cross['conflicts'][:40])
 
+    bands = cross['text_share_by_normal_offset']
+    band_text = ', '.join(f"{100 * b['text_share']:.0f}%" + (' of checks' if i == 0 else '')
+                          + f" at {b['offset_from']:.0f} to {b['offset_to']:.0f}" + (' voxels' if i == 0 else '')
+                          for i, b in enumerate(bands))
     ct_html = ''
     if os.path.exists(os.path.join(a.site, 'img', 'ct_check.png')):
         ct_html = ('  <figure class="ct">\n'
                    '    <img src="img/ct_check.png" alt="CT cross-section with two traces drawn over the papyrus sheets" width="1000" height="1000">\n'
-                   '    <figcaption>One plane of the 2.4 µm scan with two traces of windings 28 to 37 drawn over it, green and blue '
-                   '(<code>ct_check.py</code>). They follow the same sheets on every wrap that crosses this window. '
+                   '    <figcaption>One plane of the 2.4 µm scan with two versions of the trace of windings 28 to 37 drawn over it, green and blue '
+                   '(<code>ct_check.py</code>). The two versions follow the same sheets on every wrap that crosses this window. '
                    'Rings mark gap points of each trace near this plane.</figcaption>\n'
                    '  </figure>\n')
 
@@ -228,13 +232,13 @@ a:focus-visible {{ outline: 2px solid var(--accent); outline-offset: 2px; }}
   <div class="col">
     <h2>How far apart the columns are, and when a sheet switch can hide</h2>
     <p>The median spacing of neighbouring gaps (counting spacings between 3,000 and 5,000 render pixels, {int(((sp > 3000) & (sp < 5000)).sum())} of {len(sp)}) puts the column pitch at {pitch:,.0f} voxels along the sheet ({pitch * 2.4e-3:.1f} mm). The length of one turn grows by {slope:,.0f} voxels per winding, from the winding numbers in {len(W)} segment names, which puts the sheet spacing at {spacing_vox:.1f} voxels ({spacing_vox * 2.4:.0f} µm). If a trace slips one wrap, the gap below the slip appears shifted sideways by the length of one turn modulo the column pitch. Where one turn is close to a whole number of pitches (dashed lines) that shift is too small to see, so the gaps cannot catch a switch there. The tool works the shift out twice, with this pitch and with the segment's own gap spacing, and uses the smaller one; each line records whether a switch would have been visible.</p>
-    <p>{big} gap spacings are larger than 5,000 pixels; {turn_like} of them match the length of one turn within 5%{f" (segments of windings {min(turn_w)} to {max(turn_w)})" if turn_w else ""}. A strip that repeats every turn may be a crack or fold running through the wraps rather than a gap between columns, and a slip would not move it; this is not yet explained, and lines on such segments are marked as unable to show a switch.</p>
+    <p>{big} gap spacings are larger than 5,000 pixels; {turn_like} of them match the length of one turn within 5%{f" (segments of windings {min(turn_w)} to {max(turn_w)})" if turn_w else ""}. A strip that repeats every turn may be a crack or fold running through the wraps rather than a gap between columns, and a slip would not move it. This is not yet explained. Where a segment's own gap spacing is close to one turn, its lines are marked as unable to show a switch; where a segment mixes such spacings with others, they are not.</p>
   </div>
   {chart_svg(W, C, slope, intercept, pitch)}
 
   <div class="col">
     <h2>Checked against a second trace</h2>
-    <p>Many windings of Paris 4 were traced more than once. For every gap point the check looks for other segments whose mesh passes through the same spot on the same sheet (within half a sheet spacing along the surface normal), maps the spot into each one's render, and asks what is there. Every point gets one verdict over all of them. Segments with the same winding range in their name, or named after an older trace, are versions of one trace, so the tally is repeated with only the segments of another family.</p>
+    <p>Many windings of Paris 4 were traced more than once. For every gap point the check looks for other segments whose mesh passes through the same spot on the same sheet (within half a sheet spacing along the surface normal), maps the spot into each one's render, and asks what is there. The second traces are the {len(rows)} segments with lines. Every point gets one verdict over all of them. Segments with the same winding range in their name, or named after an older trace, are versions of one trace (a family): {cross['points_with_same_family_trace']:,} of the checked points have such a version among their second traces, and for {every['n'] - other['n']:,} it is the only one, so the tally is repeated with only the segments of another family. All renders come from the same ink-detection run, so this tests whether traces agree, not the ink detection itself.</p>
   </div>
   <div class="scroll"><table><thead><tr><th></th><th>all other segments</th><th>other families only</th></tr></thead><tbody>
     <tr><td>points with a second trace on the same sheet</td><td>{every['n']:,} of {total:,}</td><td>{other['n']:,} of {total:,}</td></tr>
@@ -245,7 +249,7 @@ a:focus-visible {{ outline: 2px solid var(--accent); outline-offset: 2px; }}
     <tr><td>on text, in no gap</td><td class="no">{every['conflict']:,} ({every['pct'](every['conflict'])})</td><td class="no">{other['conflict']:,} ({other['pct'](other['conflict'])})</td></tr>
   </tbody></table></div>
   <div class="col">
-    <p>A point on text in another trace means one of the two traces carries the wrong content there: a sheet switch in either trace, or a false gap. The {len(cross['conflicts']):,} such checks (on {cross['conflict_points']:,} points) are in <code>results/cross_report.json</code> with their coordinates, so each can be opened in the scan; the first {min(40, len(cross['conflicts']))} are listed here.</p>
+    <p>A point on text in another trace means the two traces do not show the same papyrus there: a trace crossing between sheets, a blank strip that is not a gap, or a render that does not line up with its mesh. Text hits grow with the distance between the two meshes along the normal: {band_text}. Many of them therefore mark two meshes that are not on the same surface there. The {len(cross['conflicts']):,} such checks (on {cross['conflict_points']:,} points) are in <code>results/cross_report.json</code> with their coordinates, so each can be opened in the scan; the first {min(40, len(cross['conflicts']))} are listed here.</p>
   </div>
   <div class="scroll"><table><thead><tr><th>gap from</th><th>second trace</th><th>x, y, z (voxels)</th><th>offset across sheet</th></tr></thead><tbody>{conflicts}</tbody></table></div>
 {ct_html}

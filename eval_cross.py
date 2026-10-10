@@ -24,7 +24,13 @@ not an independent check: segments with the same winding range in their name
 (`-w046-052`), or one named after the other (`..._20231210121321_v8`,
 `..._5753_-1`), are one family.
 
-The conflicts are concrete places for a person to check in the CT.
+Second traces are the segments that gave lines, the ones save_meshes.py and
+density_maps.py prepare. A text hit means the two traces do not show the same
+papyrus there: a trace crossing between sheets, a blank strip that is not a
+gap, or a render that does not line up with its mesh. Text hits grow with the
+distance between the two meshes along the normal, so that share is reported
+per distance band. The conflicts are concrete places for a person to check in
+the CT.
 """
 import argparse
 import glob
@@ -159,6 +165,7 @@ def main():
     per_pair = []
     conflicts = []
     per_point = {}
+    offsets = []                # (offset along the normal, on text?, same family?)
     for sa in segs:
         A = S[sa]
         for sb in segs:
@@ -173,11 +180,24 @@ def main():
                 c[st] = c.get(st, 0) + 1
                 counts[st] = counts.get(st, 0) + 1
                 per_point.setdefault((sa, name, tuple(p)), []).append((sb, st))
+                if st in ('confirmed', 'confirmed_weak', 'b_blank', 'conflict'):
+                    offsets.append((dn, st == 'conflict', family(sa) == family(sb)))
                 if st == 'conflict':
                     conflicts.append(dict(a=sa, b=sb, collection=name, p=p, normal_offset=dn))
             if c.get('confirmed', 0) + c.get('confirmed_weak', 0) + c.get('conflict', 0):
                 per_pair.append(dict(a=sa, b=sb, **c))
     conf = counts.get('confirmed', 0) + counts.get('confirmed_weak', 0)
+    # How often a check lands on text, against how far apart the two meshes
+    # are along the normal (the same-sheet limit is half a sheet spacing).
+    by_offset = []
+    edges = [0, 10, 20, 30, 40, 0.5 * SPACING]
+    for lo, hi in zip(edges, edges[1:]):
+        sel = [(t, sf) for d, t, sf in offsets if lo <= d < hi or (hi == edges[-1] and d == hi)]
+        oth = [t for t, sf in sel if not sf]
+        by_offset.append(dict(offset_from=lo, offset_to=round(hi, 1), checks=len(sel),
+                              text_share=round(sum(t for t, _ in sel) / max(1, len(sel)), 3),
+                              other_family_checks=len(oth),
+                              other_family_text_share=round(sum(oth) / max(1, len(oth)), 3)))
     every = tally(per_point)
     other = tally(per_point, lambda sa, sb: family(sa) != family(sb))
     report = dict(points_total=sum(len(S[s_]['pts']) for s_ in segs),
@@ -186,11 +206,18 @@ def main():
                   pair_confirmed_share=conf / max(1, conf + counts.get('conflict', 0)),
                   conflict_points=len({(c['a'], c['collection'], tuple(c['p'])) for c in conflicts}),
                   conflict_normal_offsets=np.percentile([c['normal_offset'] for c in conflicts], [10, 50, 90]).tolist() if conflicts else None,
+                  agree_normal_offsets=np.percentile([d for d, t, _ in offsets if not t], [10, 50, 90]).tolist() if offsets else None,
+                  text_share_by_normal_offset=by_offset,
+                  points_with_same_family_trace=sum(1 for (sa, _, _), seen in per_point.items()
+                                                    if any(family(sb) == family(sa) and st in ('confirmed', 'confirmed_weak', 'b_blank', 'conflict')
+                                                           for sb, st in seen)),
                   pairs=per_pair, conflicts=conflicts)
     json.dump(report, open(os.path.join(a.out_root, 'cross_report.json'), 'w'), indent=1)
     for k in ('all_segments', 'other_family'):
         print(k, report[k]['points_checked'], 'of', report['points_total'], 'points checked:', report[k]['per_point'])
     print('pair level', counts, 'confirmed share', round(report['pair_confirmed_share'], 3))
+    for b in by_offset:
+        print('offset', b)
     for p in sorted(per_pair, key=lambda q: -(q.get('confirmed', 0) + q.get('conflict', 0)))[:25]:
         print(p)
 
