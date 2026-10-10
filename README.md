@@ -10,8 +10,10 @@ the segment's tifxyz mesh, checks it, and writes it as a VC point collection
 that `spiral-fitting/fit_spiral.py` reads as a same-winding input with no
 changes.
 
-This is the "Intercolumnar gaps" idea from the team's list of winding
-constraints not yet tried (`scrollprize.org/docs/39_winding_annotations.md`).
+This is the "Intercolumnar gaps" idea listed under "Things we have not tried"
+on the team's [In-depth: Winding Constraints](https://scrollprize.org/open_problems/winding_annotations)
+page: "Like ink, they could provide same-winding evidence that is easy to
+identify and verify."
 
 ## Results on PHerc. Paris 4
 
@@ -62,13 +64,19 @@ A gallery with every segment's overlay and these numbers is built by
    - *Sheet switches*: if the trace slips to another wrap, the text below the
      slip comes from one turn further along the sheet, and the gap appears
      shifted sideways by (length of one turn) mod (column pitch). The tool
-     measures the length of one turn from the mesh and the umbilicus, predicts
-     that shift, and flags windows where the line starts of the next column
-     jump by it.
+     measures the length of one turn from the mesh and the umbilicus and
+     works the shift out twice: with the scroll's column pitch
+     (`--column-pitch-vox`, default 32,192 voxels for Paris 4) and with the
+     segment's own gap spacing, which differs from it when a gap is missed
+     or a strip repeats every turn. The smaller of the two shifts is used. A
+     window where the line starts of the next column jump sideways by at
+     least 60% of it (and by at least 60 px and four times the
+     window-to-window jitter) is dropped, which cuts the line there, so no
+     line spans a detected jump.
    - *When a switch can hide*: where one turn is close to a whole number of
-     column pitches the predicted shift is smaller than the gap's own jitter,
-     and the gaps cannot catch a switch. Each collection records whether a
-     switch would have been visible (`one_turn_switch_checkable`).
+     column pitches, the shift is too small to tell from the jitter and the
+     gaps cannot catch a switch. Each collection records whether a switch
+     would have been visible (`one_turn_switch_checkable`).
 6. **Write point collections.** One collection per continuous run of kept
    windows (at least six windows, about 6,000 voxels of column height).
 
@@ -78,10 +86,11 @@ A gallery with every segment's overlay and these numbers is built by
 `vc_pointcollections_json_version` 1. Points carry `p` as `[x, y, z]` in
 full-resolution voxels of the 2.4 µm volume `20260411134726` and no `wind_a`,
 so `point_collection.py` loads them as same-winding collections. Each
-collection's `metadata` holds the evidence a reviewer needs: render
-coordinates of every point, surface normals, the 3D line starts of the next
-column, gap width, column pitch, the predicted switch shift, and whether a
-switch would have been visible.
+collection's `metadata` holds the evidence a reviewer needs: for every point
+its render coordinates, surface normal and the 3D line start of the next
+column; for the line the gap's half-width, the column pitch and the segment's
+gap spacing, the length of one turn, both predicted switch shifts, the
+window-to-window jitter, and whether a switch would have been visible.
 
 `results/PHercParis4_intercolumnar_same_windings_2.4um.json` merges every
 segment in voxels of the 2.4 µm volume. `results/..._9.6um.json` is the same
@@ -91,8 +100,8 @@ tutorial's `spiral-scroll.json`, shape 18,946 × 8,174 × 8,174 as in the
 fitter's own tests). The fitter's default range of z 4,000 to 17,000 matches
 our points, which span 3,554 to 17,727 in that frame. Voxel quantities in the
 metadata (`line_start_xyz`, `radius_vox`) are scaled with the points.
-`add_to_dataset.py` appends the collections to a dataset's
-`same_windings.json` with fresh ids.
+`add_to_dataset.py` writes a copy of a dataset's `same_windings.json` with
+the collections appended under fresh ids; the original file is not touched.
 
 ## Checks you can run without ground truth
 

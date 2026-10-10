@@ -14,19 +14,66 @@ mesh and ask whether B's render shows a gap there too:
   b_edge     the spot falls at the edge of B's render
   other      B passes nearby only on other wraps, or not at all
 
-The confirmed share is a precision estimate for the constraints, and the
-conflicts are concrete places for a person to check in the CT.
+Each point gets one verdict over all the segments that cover it on its
+sheet: confirmed (some segment sees a gap there in a window its run kept,
+none shows text), confirmed_weak (same, but only in windows those runs
+rejected), mixed (a gap in one segment, text in another), conflict (text,
+no gap), b_blank (only blank papyrus). The same tally is repeated with only
+the segments of another family, since a second version of the same trace is
+not an independent check: segments with the same winding range in their name
+(`-w046-052`), or one named after the other (`..._20231210121321_v8`,
+`..._5753_-1`), are one family.
+
+The conflicts are concrete places for a person to check in the CT.
 """
 import argparse
 import glob
 import json
 import os
+import re
 
 import numpy as np
 from scipy.spatial import cKDTree
 
 SPACING = 89.4      # sheet spacing in voxels, from wrap length vs winding
 TO_GRID = 0.4       # ds8 render pixel -> full mesh grid index (8 * 0.05)
+
+
+def family(seg):
+    """Segments with the same key are versions of one trace."""
+    m = re.search(r'-w(\d+)-(\d+)', seg)
+    if m:
+        return f'w{int(m.group(1))}-{int(m.group(2))}'
+    ids = re.findall(r'\d{14}', seg)
+    m = re.search(r'-(\d{4})_', seg)       # 20260602204401-5753_-7 -> ...185753
+    if len(ids) == 1 and m:
+        return '*' + m.group(1)
+    return '*' + (ids[-1] if ids else seg)[-4:]
+
+
+def point_verdict(sts):
+    sts = set(sts)
+    gap = sts & {'confirmed', 'confirmed_weak'}
+    if gap and 'conflict' in sts:
+        return 'mixed'
+    if 'confirmed' in sts:
+        return 'confirmed'
+    if gap:
+        return 'confirmed_weak'
+    if 'conflict' in sts:
+        return 'conflict'
+    if 'b_blank' in sts:
+        return 'b_blank'
+    return None
+
+
+def tally(per_point, keep=lambda sa, sb: True):
+    out = {}
+    for (sa, _, _), seen in per_point.items():
+        v = point_verdict(st for sb, st in seen if keep(sa, sb))
+        if v:
+            out[v] = out.get(v, 0) + 1
+    return dict(per_point=out, points_checked=sum(out.values()))
 
 
 def load_segment(out_root, seg):
@@ -111,6 +158,7 @@ def main():
     counts = {}
     per_pair = []
     conflicts = []
+    per_point = {}
     for sa in segs:
         A = S[sa]
         for sb in segs:
@@ -124,18 +172,25 @@ def main():
                 st, dn = classify(np.array(p, float), B)
                 c[st] = c.get(st, 0) + 1
                 counts[st] = counts.get(st, 0) + 1
+                per_point.setdefault((sa, name, tuple(p)), []).append((sb, st))
                 if st == 'conflict':
                     conflicts.append(dict(a=sa, b=sb, collection=name, p=p, normal_offset=dn))
             if c.get('confirmed', 0) + c.get('confirmed_weak', 0) + c.get('conflict', 0):
                 per_pair.append(dict(a=sa, b=sb, **c))
     conf = counts.get('confirmed', 0) + counts.get('confirmed_weak', 0)
-    report = dict(counts=counts,
-                  confirmed_share=conf / max(1, conf + counts.get('conflict', 0)),
-                  blank_or_confirmed_share=(conf + counts.get('b_blank', 0)) / max(1, conf + counts.get('b_blank', 0) + counts.get('conflict', 0)),
+    every = tally(per_point)
+    other = tally(per_point, lambda sa, sb: family(sa) != family(sb))
+    report = dict(points_total=sum(len(S[s_]['pts']) for s_ in segs),
+                  all_segments=every, other_family=other,
+                  pair_counts=counts,
+                  pair_confirmed_share=conf / max(1, conf + counts.get('conflict', 0)),
+                  conflict_points=len({(c['a'], c['collection'], tuple(c['p'])) for c in conflicts}),
+                  conflict_normal_offsets=np.percentile([c['normal_offset'] for c in conflicts], [10, 50, 90]).tolist() if conflicts else None,
                   pairs=per_pair, conflicts=conflicts)
     json.dump(report, open(os.path.join(a.out_root, 'cross_report.json'), 'w'), indent=1)
-    print(counts, 'confirmed share', round(report['confirmed_share'], 3),
-          'blank-or-confirmed', round(report['blank_or_confirmed_share'], 3))
+    for k in ('all_segments', 'other_family'):
+        print(k, report[k]['points_checked'], 'of', report['points_total'], 'points checked:', report[k]['per_point'])
+    print('pair level', counts, 'confirmed share', round(report['pair_confirmed_share'], 3))
     for p in sorted(per_pair, key=lambda q: -(q.get('confirmed', 0) + q.get('conflict', 0)))[:25]:
         print(p)
 

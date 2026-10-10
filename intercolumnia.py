@@ -18,6 +18,10 @@ from scipy.signal import find_peaks
 
 Image.MAX_IMAGE_PIXELS = None
 
+# Column pitch of PHerc. Paris 4 in voxels of the 2.4 um volume: the median
+# spacing of neighbouring gaps over all segments (gallery.py measures it).
+COLUMN_PITCH_VOX = 32192.0
+
 
 # ---------------------------------------------------------------- 2D: render
 
@@ -319,8 +323,8 @@ def switch_offset(wrap_len_px, pitch_px):
 
     Content one turn away is one wrap length further along the sheet. Seen
     through the column layout (period = pitch) the gap would appear shifted
-    by the wrap length modulo the pitch. If that shift is smaller than the
-    gap's half-width, a switch could hide inside the gap.
+    by the wrap length modulo the pitch. If that shift is too small to tell
+    from the window-to-window jitter of the gap, a switch could hide there.
     """
     f = wrap_len_px / pitch_px
     return float(((f + 0.5) % 1.0 - 0.5) * pitch_px)
@@ -367,7 +371,9 @@ def to_point_collections(gaps, segment, min_points=6, t0=None):
                     'radius_vox': [float(g['r'][a]), float(g['r'][b - 1])],
                     'gap_halfwidth_px_ds8': g['halfwidth'],
                     'column_pitch_px_ds8': g['pitch_px'],
+                    'gap_spacing_px_ds8': g['spacing_px'],
                     'one_turn_switch_shift_px_ds8': g['switch_offset_px'],
+                    'one_turn_switch_shift_by_spacing_px_ds8': g['switch_offset_spacing_px'],
                     'one_turn_switch_checkable': g['switch_checkable'],
                     'gap_centre_noise_px_ds8': g['centre_noise_px'],
                     'wrap_length_px_ds8': g['wrap_len_px'],
@@ -388,6 +394,9 @@ def main():
     ap.add_argument('--segment', default='segment')
     ap.add_argument('--render-downsample', type=float, default=8.0)
     ap.add_argument('--band', type=int, default=128)
+    ap.add_argument('--column-pitch-vox', type=float, default=COLUMN_PITCH_VOX,
+                    help='column pitch of the scroll in voxels (0: use only the '
+                         "segment's own gap spacing)")
     process(ap.parse_args())
 
 
@@ -444,11 +453,22 @@ def process(args):
                          r=rr, theta=th, ok2d=ok2d, flag3d=flags, ok=ok,
                          wrap_len_vox=wl))
     xs0 = np.array([g['trace'][len(g['trace']) // 2]['x'] for g in gaps])
-    pitch = float(np.median(np.diff(np.sort(xs0)))) if len(xs0) > 1 else np.nan
+    spacing = float(np.median(np.diff(np.sort(xs0)))) if len(xs0) > 1 else np.nan
+    cp = getattr(args, 'column_pitch_vox', COLUMN_PITCH_VOX)
+    pitch = cp / args.render_downsample if cp else np.nan
     for g in gaps:
         wl = g['wrap_len_vox']
         wl_px = np.nanmedian(wl) / args.render_downsample if np.isfinite(wl).any() else np.nan
+        # A one-turn switch moves the gap by the wrap length modulo the column
+        # pitch. The scroll-wide pitch and this segment's own gap spacing can
+        # disagree (a missed gap doubles the spacing; a strip that repeats
+        # every turn makes it one turn), so both are used and the smaller
+        # shift decides: it sets the step threshold and whether a switch
+        # would be visible at all.
         off = switch_offset(wl_px, pitch) if np.isfinite(wl_px) and np.isfinite(pitch) else np.nan
+        off_sp = switch_offset(wl_px, spacing) if np.isfinite(wl_px) and np.isfinite(spacing) else np.nan
+        offs = [abs(o) for o in (off, off_sp) if np.isfinite(o)]
+        off_min = min(offs) if offs else np.nan
         # Line starts of the right-hand column are the sharpest, most regular
         # edge (line ends are ragged), so jumps are measured on them.
         xc = np.array([r['edge_right'] for r in g['trace']], float)
@@ -457,19 +477,22 @@ def process(args):
         # can see; a one-turn switch moves the gap by `off`.
         noise = float(1.4826 * np.median(np.abs(np.diff(xc[idx]) - np.median(np.diff(xc[idx]))))) if idx.size > 3 else np.nan
         min_step = max(4.0 * noise, 60.0) if np.isfinite(noise) else np.inf
-        steps = find_steps(xc, g['ok'], max(min_step, 0.6 * abs(off)) if np.isfinite(off) else min_step)
+        steps = find_steps(xc, g['ok'], max(min_step, 0.6 * off_min) if np.isfinite(off_min) else min_step)
         g['steps'] = steps
         g['ok'] = bridge(g['ok'] & ~steps)
         g['pitch_px'] = pitch
+        g['spacing_px'] = spacing
         g['wrap_len_px'] = float(wl_px)
         g['switch_offset_px'] = off
+        g['switch_offset_spacing_px'] = off_sp
         g['centre_noise_px'] = noise
-        g['switch_checkable'] = bool(np.isfinite(off) and 0.6 * abs(off) >= min_step)
+        g['switch_checkable'] = bool(np.isfinite(off_min) and 0.6 * off_min >= min_step)
         ok, rr = g['ok'], g['r']
         print(f"gap {g['index']}: x0={g['x0']} hw={g['halfwidth']} prom={g['prominence']:.3f} "
               f"windows={len(g['trace'])} 2d_ok={g['ok2d'].sum()} torn={g['flag3d'].sum()} "
               f"steps={steps.sum()} kept={ok.sum()} wrap={wl_px:.0f}px pitch={pitch:.0f}px "
-              f"switch_shift={off:.0f}px noise={noise:.0f}px checkable={g['switch_checkable']}")
+              f"spacing={spacing:.0f}px switch_shift={off:.0f}/{off_sp:.0f}px noise={noise:.0f}px "
+              f"checkable={g['switch_checkable']}")
 
     pc = to_point_collections(gaps, args.segment)
     with open(os.path.join(args.out, f'{args.segment}_intercolumnar_same_windings.json'), 'w') as f:

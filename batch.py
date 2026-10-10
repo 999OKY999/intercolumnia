@@ -60,9 +60,12 @@ def one(row, work, out_root, umbilicus):
             'collections': len(pc['collections']),
             'points': sum(len(c['points']) for c in pc['collections'].values()),
             'pitch_px': gaps[0]['pitch_px'] if gaps else None,
+            'gap_spacing_px': gaps[0]['spacing_px'] if gaps else None,
             'per_gap': [{'x0': g['x0'], 'halfwidth': g['halfwidth'],
                          'windows_ok': int(g['ok'].sum()), 'steps': int(g['steps'].sum()),
                          'wrap_len_px': g['wrap_len_px'], 'switch_offset_px': g['switch_offset_px'],
+                         'switch_offset_spacing_px': g['switch_offset_spacing_px'],
+                         'noise_px': g['centre_noise_px'],
                          'checkable': g['switch_checkable']} for g in gaps],
         }
         json.dump(summary, open(os.path.join(out, 'done.json'), 'w'), indent=1, default=float)
