@@ -48,6 +48,27 @@ export WORK=/path/on/big/disk/ab
 bash intercolumnia/gpu_test/run_ab_test.sh "$PWD/intercolumnia"
 ```
 
+### Without logging in (cloud-init)
+
+When an SSH login is not possible, create the machine with this cloud-init
+user data (most providers have a "cloud-init" or "user data" field), a public
+IPv4 and inbound port 80 open:
+
+```bash
+#!/bin/bash
+curl -fsSL --retry 10 --retry-all-errors -o /root/ab_boot.sh https://raw.githubusercontent.com/999OKY999/intercolumnia/main/gpu_test/cloud_init.sh && bash /root/ab_boot.sh
+```
+
+At first boot `cloud_init.sh` installs the packages, clones this repository
+and runs `run_ab_test.sh` as a background service with `WORK` on the system
+disk, stopped after `RUN_MAX_HOURS` (default 36) at the latest. A read-only
+page at `http://<machine-ip>/` shows the status, the last lines of the log and
+the pilot's time projection, refreshes every minute, and offers
+`ab_results.tgz` when the run ends (FINISHED or STOPPED). The machine keeps
+running, and billing, until you delete it.
+
+### Leaving it running
+
 Leave it running with `Ctrl-b` then `d`; come back with `tmux attach -t ab`.
 `$WORK/run_all.log` has the overall progress; during a fit it stays quiet and
 the fitter's own progress is in `$WORK/out/<run>/fit.log`. Running the same
