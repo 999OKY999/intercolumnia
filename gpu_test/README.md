@@ -50,22 +50,35 @@ bash intercolumnia/gpu_test/run_ab_test.sh "$PWD/intercolumnia"
 
 ### Without logging in (cloud-init)
 
-When an SSH login is not possible, create the machine with this cloud-init
+When an SSH login is not possible, create a NEW machine with this cloud-init
 user data (most providers have a "cloud-init" or "user data" field), a public
-IPv4 and inbound port 80 open:
+IPv4 and inbound port 80 open. The first line must be exactly `#!/bin/bash`.
+Added to an existing machine, it does nothing.
 
 ```bash
 #!/bin/bash
-curl -fsSL --retry 10 --retry-all-errors -o /root/ab_boot.sh https://raw.githubusercontent.com/999OKY999/intercolumnia/main/gpu_test/cloud_init.sh && bash /root/ab_boot.sh
+cd /root
+curl -fsSL --retry 10 --retry-all-errors -o ab_boot.sh https://raw.githubusercontent.com/999OKY999/intercolumnia/main/gpu_test/cloud_init.sh
+bash ab_boot.sh
 ```
 
 At first boot `cloud_init.sh` installs the packages, clones this repository
-and runs `run_ab_test.sh` as a background service with `WORK` on the system
-disk, stopped after `RUN_MAX_HOURS` (default 36) at the latest. A read-only
-page at `http://<machine-ip>/` shows the status, the last lines of the log and
-the pilot's time projection, refreshes every minute, and offers
-`ab_results.tgz` when the run ends (FINISHED or STOPPED). The machine keeps
-running, and billing, until you delete it.
+and runs `run_ab_test.sh` as a background service, with `WORK` on the system
+disk (or on `/scratch` when the system disk has less than 200 GB free). The
+service is stopped after `RUN_MAX_HOURS` at the latest (default `MAX_HOURS` +
+12, so 36 h); the results are packed then too. Settings go before `bash` on
+the last line, for example `MAX_HOURS=12 bash ab_boot.sh`.
+
+A read-only page at `http://<machine-ip>/` shows the status, the current fit,
+the last lines of the log and the pilot's time projection, and refreshes every
+minute. It should answer a few minutes after the machine is up; if it does not
+load within 15 minutes, nothing is running, so delete the machine. Chrome may
+first warn that the connection is not secure (it is plain HTTP): continue to
+the site, and keep the download if asked. When the page says FINISHED, or
+STOPPED after the test started, download `ab_results.tgz`; a stop before the
+test started offers `boot.txt` with the reason. Do not reboot or power off the
+machine during the run: that stops the test. The machine keeps running, and
+billing, until you delete it.
 
 ### Leaving it running
 
